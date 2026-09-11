@@ -1,0 +1,41 @@
+# Agilent turbo controller reader — dependency + tool configuration, the single
+# source of truth for the environment (same scheme as ferroDAC): dev boxes, CI
+# tests and the release binaries all install the identical locked set via
+# `uv sync` (uv.lock is committed).
+
+[project]
+name = "agilent-turbo-reader"
+version = "0.0.0+dev"          # display version is stamped from the git tag by CI
+requires-python = ">=3.12"
+description = "Auto-detect and read the state of Agilent / Varian turbo pump controllers over serial"
+readme = "README.md"
+dependencies = [
+    # 6.10 has a colour-management regression that freezes Qt GUIs for minutes
+    # (seen on Kali with ferroDAC); 6.9.x is verified fine.
+    "PySide6>=6.9,<6.10",
+    "pyserial>=3.5",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+package = [
+    # one-file binaries (CI + local builds): uv sync --group package
+    "pyinstaller>=6",
+]
+icon = [
+    "pillow>=10",
+]
+
+[tool.uv]
+# An APP run from source (python main.py), not an installable library: uv manages
+# the venv + deps but never builds/installs the project itself.
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "ui: needs PySide6 / offscreen Qt",
+]

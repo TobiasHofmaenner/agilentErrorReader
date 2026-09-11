@@ -1,0 +1,549 @@
+Agilent T-plus
+Turbo Pumps Linked User Software
+
+
+
+
+User Manual
+Rev. 1.1
+10/2011
+Notices                                  Warranty                                  contract clause. Use, duplication or
+                                                                                   disclosure of Software is subject to
+                                         The material contained in this            Agilent Technologies’ standard
+© Agilent Technologies, Inc. 2011        document is provided “as is,” and is      commercial license terms, and non-
+No part of this manual may be            subject to being changed, without         DOD Departments and Agencies of the
+reproduced in any form or by any         notice, in future editions. Further, to   U.S. Government will receive no
+means (including electronic storage      the maximum extent permitted by           greater than Restricted Rights as
+and retrieval or translation into a      applicable law, Agilent disclaims all     defined in FAR 52.227-19(c)(1-2) (June
+foreign language) without prior          warranties, either express or implied,    1987). U.S. Government users will
+agreement and written consent from       with regard to this manual and any        receive no greater than Limited Rights
+Agilent Technologies, Inc. as governed   information contained herein,             as defined in FAR 52.227-14 (June
+by United States and international       including but not limited to the          1987) or DFAR 252.227-7015 (b)(2)
+copyright laws.                          implied warranties of merchantability     (November 1995), as applicable in any
+                                         and fitness for a particular purpose.     technical data.
+                                         Agilent shall not be liable for errors
+                                         or for incidental or consequential        Trademarks
+                                         damages in connection with the
+                                         furnishing, use, or performance of        Windows and MS Windows are U.S.
+Edition                                  this document or of any information       registered trademarks of Microsoft
+Edition 10/2011                          contained herein. Should Agilent and      Corporation.
+                                         the user have a separate written
+Printed in ITALY                                                                   Safety Notices
+                                         agreement with warranty terms
+                                         covering the material in this
+                                         document that conflict with these
+Agilent Technologies Italia S.p.A.                                                    CAUTION
+                                         terms, the warranty terms in the
+Vacuum Products Division                 separate agreement shall control.         A CAUTION notice denotes a hazard.
+Via F.lli Varian, 54                                                               It calls attention to an operating
+10040 Leinì (TO)                         Technology Licenses                       procedure, practice, or the like that, if
+                                                                                   not correctly performed or adhered to,
+ITALY                                    The hardware and/or software
+                                                                                   could result in damage to the product
+                                         described in this document are
+                                                                                   or loss of important data. Do not
+                                         furnished under a license and may be
+                                                                                   proceed beyond a CAUTION notice
+                                         used or copied only in accordance
+                                                                                   until the indicated conditions are fully
+                                         with the terms of such license.
+                                                                                   understood and met.
+                                         Restricted Rights Legend
+                                         If software is for use in the                WARNING
+                                         performance of a U.S. Government
+                                         prime contract or subcontract,            A WARNING notice denotes a
+                                         Software is delivered and licensed as     hazard. It calls attention to an
+                                         “Commercial computer software” as         operating procedure, practice, or the
+                                         defined in DFAR 252.227-7014 (June        like that, if not correctly performed
+                                         1995), or as a “commercial item” as       or adhered to, could result in
+                                         defined in FAR 2.101(a) or as             personal injury or death. Do not
+                                         “Restricted computer software” as         proceed beyond a WARNING notice
+                                         defined in FAR 52.227-19 (June 1987)      until the indicated conditions are
+                                         or any equivalent agency regulation or    fully understood and met.
+
+
+                                                                          Agilent T-plus User Manual / Rev. 1.1
+                                                                                Preface
+
+
+
+Preface
+                 The Agilent T-plus (Turbo Pumps Linked User Software) is the new
+                 communication, control and monitoring user software for Agilent
+                 Turbomolecular Pumps and all the other Agilent products provided
+                 by the Agilent Window Serial Protocol.
+                 In T-plus, you can simultaneously control and drive one or more
+                 Turbo Pumps connected to a PC through an RS232 or an RS485 serial
+                 communication and by an easy User Interface you can totally control
+                 your Vacuum Pumps.
+                 Auto recognising of the connected Pumps, Description of each
+                 command always on screen, Different behaviour of the User Interface
+                 according to the Pump Status are only some of the new features
+                 developed in order to get easy the approach to Pumps settings and to
+                 reduce the number of steps during Pumps configuration.
+                 Moreover, special care was taken during Graphical User Interface
+                 developing in order to create an application similar to very well-
+                 known User Interfaces (similar to Microsoft® Windows®
+                 Applications) in order to obtain a real User Friendly application and
+                 to reduce the user learning time.
+                 Agilent T-plus software also includes several options like Data
+                 Logging, Chart Representation and Network Configuration in order
+                 to help you quickly configure your Vacuum devices and to check in
+                 every moment your Vacuum System Status.
+                 An exhaustive Help online is also included in the software so that the
+                 user has a really complete environment easy to learn and always
+                 near to customer satisfaction.
+
+
+
+
+Agilent T-plus User Manual / Rev. 1.1                                                    3
+Preface
+
+
+
+Contents
+           Preface         iii
+
+           Getting started 1
+               CD Contents and System Requirements 2
+               Set Up procedure   3
+               Agilent Pumps Connection   4
+
+           Instructions for Use   5
+               The Main Window: pump list 6
+                       Auto-recognizing System6
+                       Pump Controls and Broadcast Commands 7
+                       Serial Tools    7
+                       Help and About 7
+               The Single Pump Control Panel 8
+                       The Window List    9
+                       Pump Status and Configuration 9
+                       The Single Pump Control Panel Menus     10
+               Add readings to Log and tracks to Graph 11
+                       Readings Window 11
+                       Log Option     12
+                       Save and Load Readings List 12
+                       Data Plotting 13
+
+           Agilent Technologies – Vacuum Products Division Info     14
+
+
+
+
+iv                                            Agilent T-plus User Manual / Rev. 1.1
+                                        Preface
+
+
+
+
+Agilent T-plus User Manual / Rev. 1.1        5
+                             Agilent T-plus User Manual
+
+
+
+
+1
+Getting started
+CD Contents and System Requirements 2
+Set Up procedure 3
+Agilent Pumps Connection 4
+
+
+
+
+                                                     1
+1   Getting started
+    CD Contents and System Requirements
+
+
+
+CD Contents and System Requirements
+              In the Agilent T-plus CD you will find:
+                 The Installation Kit of the Agilent T-plus software
+                 The Installation Kit of the software Serial Address Configurator
+                  (tool adapted to configure RS485 network)
+                 The Installation Kit of the old Varian communication software
+                  (Navigator Sw 2.2)*
+                 A copy of this help in PDF format
+              To install the T-plus software you need a PC with the following
+              minimum requirements:
+                 Pentium II or higher processor
+                 Microsoft Windows 98 or later operating system
+                 64 MB of RAM (128 MB recommended)
+                 Hard-disk space required: 20 MB
+                 VGA or higher-resolution monitor
+                 CD-ROM drive
+                 Mouse
+                 RS232 or RS485 COM Port
+
+
+
+
+2                                                  Agilent T-plus User Manual / Rev. 1.1
+                                           Agilent T-plus User ManualGetting started   1
+
+
+
+
+Set Up procedure
+                 Insert the CD into the CD Rom Drive on your Computer and when the
+                 AutoRun program starts (if it doesn’t open the Explore Window and
+                 click on StartScreen.exe in your CD) this window appears on your
+                 monitor.
+
+
+
+
+                 You can:
+                    Explore the CD content (see the paragraph CD Contents and
+                     System Requirements)
+                    Visit our web site on www.agilent.com/chem/vacuum (where you
+                     can find some more information about all the Vacuum products
+                     and services)
+                    Install the Agilent T-plus program (and follow the instructions
+                     appearing on your screen)
+                 According to default settings the T-plus program will be installed
+                 under your Programs Folder in the directory Agilent T-plus and the
+                 group Programs/Agilent T-plus will be created in your Start menu..
+
+
+
+
+Agilent T-plus User Manual / Rev. 1.1                                                  3
+1   Getting started
+    Agilent Pumps Connection
+
+
+
+Agilent Pumps Connection
+               The T-plus is able to communicate by an RS232 or an RS485 network
+               to Agilent Pump Controller provided of the Agilent Window Serial
+               Protocol (please refer to your product Handbook to see if it’s
+               compatible with this protocol). With this software you can
+               simultaneously connect more than one Pump Controllers or Pump
+               networks to different COM ports on your PC; for instance if you have
+               a computer with two RS232 COM Ports and one RS485 COM Port you
+               can simultaneously connect two Pumps to the two RS232 port and up
+               to 32 other Pumps to the RS485 Port, then you can drive all them at
+               the same time using the T-plus software.
+                  To set an RS232 communication please use an RS232 straight
+                   cable and connect it to the Serial Connector on your Pump
+                   Controller and a COM Port on your PC.
+                  To set an RS485 network you need to do two steps:
+                         o     Connect the pump one by one (by an RS232 or RS485
+                               communication) and using the Serial Address
+                               Configurator program (provided in the CD) assign a
+                               different serial address for each Pump Controller.
+                         o     Refer to the controller handbook to see the pin out of
+                               the Serial Connector on your Pump Controller and
+                               create a cable to connect with the right pins your
+                               RS485 COM Port on your computer and all the Pump
+                               Controllers.
+
+
+               Setting your RS485 COM Port, please remember that all the Agilent
+               products always use a two wires half-duplex RS485 communication.
+
+
+
+
+4                                                    Agilent T-plus User Manual / Rev. 1.1
+                                                                Agilent T-plus User Manual   2
+
+
+
+
+                                    2
+                                    Instructions for Use
+                                    The Main Window: pump list        6
+                                        Auto-recognizing System       6
+                                        Pump Controls and Broadcast Commands           7
+                                        Serial Tools   7
+                                        Help and About      7
+                                    The Single Pump Control Panel 8
+                                        The Window List 9
+                                        Pump Status and Configuration 9
+                                        The Single Pump Control Panel Menus       10
+                                    Add readings to Log and tracks to Graph 11
+                                        Readings Window 11
+                                        Log Option     12
+                                        Save and Load Readings List       12
+                                        Data Plotting 13
+
+
+
+
+Agilent T-plus User Manual / Rev. 1.1                                                        5
+2   Instructions for Use
+    The Main Window: pump list
+
+
+
+The Main Window: pump list
+               The T-plus software shows a list of all the controllers connected to
+               network on screen.
+
+
+
+
+      Auto-recognizing System
+               At the Start Up the T-plus software search on all the PC COM Ports
+               available the presence of Agilent Pumps. The system automatically
+               recognizes the serial settings (COM Port, RS232 or RS485
+               communication, eventually the serial address) and the Pump
+               Controllers connected to the PC and shows a list of all the controllers
+               connected to network on screen.
+               Moreover for each pumps T-plus shows the Pump Status (Ramp,
+               Normal Operation, Stop,…), the electrical power, the excitation
+               frequency, the bearing temperature and the Controller Functionality
+               mode (Serial or Remote).
+               When a Pump controller is disconnected by the system the software
+               recognizes this event, scans again the network and updates the
+               visualization on screen. When the user connects a new pump he must
+               also click on the button “New Net Scan” and the software launches
+               again the Auto-recognizing function and update the Pumps List.
+
+
+
+
+6                                                  Agilent T-plus User Manual / Rev. 1.1
+                                                                 Instructions for Use   2
+                                                         The Main Window: pump list
+
+
+
+        Pump Controls and Broadcast Commands
+                 Selecting a row in the pump list the two buttons in the lower side of
+                 the window “Serial/Remote” and “Start/Stop” configure themselves
+                 according to pump status to command the single selected pump (for
+                 instance if the pump is in serial mode only the remote button is
+                 enabled and vice versa with the pump in remote mode). If you want
+                 to command simultaneously all the pumps in the pumps list you can
+                 use the commands present in the menu Broadcast Command where
+                 you can either start or stop all the pumps or set all the pumps either
+                 in remote or in serial mode.
+
+
+
+
+        Serial Tools
+                 By this menu the user can change the serial Settings or Choose the
+                 Baudrate:
+                 In the first case the T-plus open a new window adapted to change
+                 serial settings as RS232 or RS485, the baudrate and the Serial
+                 Address (only for the RS485 serial networks). Please remember to
+                 connect always the pumps one by one to change serial settings.
+                 In the second case you can select the list of baudrates the T-plus has
+                 to use to find by the Auto-recognizing procedure Agilent pumps (the
+                 default is 9600 bit/s because it’s the default of the Agilent Protocol).
+
+
+
+
+        Help and About
+                 Clicking on the ? you’ll be able to obtain some more information
+                 about T-plus and Agilent Vacuum Products:
+                    Help: Open the Help on line (not yet available on T-plus beta
+                     release)
+                    About: Open the about window. It is useful to find the T-plus
+                     release number and some information about Agilent (telephone
+                     numbers, addresses, email and so on).
+
+
+Agilent T-plus User Manual / Rev. 1.1                                                       7
+2   Instructions for Use
+    The Single Pump Control Panel
+
+
+
+The Single Pump Control Panel
+               Double clicking on a Pump name in the pumps list or clicking on the
+               button Open Control Panel the Single Pump Control Panel of the
+               selected pump in the pumps list appears on screen:
+
+
+
+
+               By this window you have the complete control of every pump (one a
+               time) you find in the pumps list in the Main Window and here you
+               can change or see pump settings, check status and parameters,
+               configure a log or a plot and obviously give commands.
+
+
+
+8                                                 Agilent T-plus User Manual / Rev. 1.1
+                                                                 Instructions for Use   2
+                                                      The Single Pump Control Panel
+
+
+
+        The Window List
+                 On the left side you’ll have the whole set of commands, settings,
+                 options and parameters described in the Controller Handbook at the
+                 section Windows Meaning. All these commands are divided into
+                 different groups according to their meanings; for example in the
+                 group Reading you will find all the parameters you can read from the
+                 controller (Voltage, Current, Temperature, Power;…), in the group
+                 Configuration you can choose the most important settings of the
+                 pump (Interlock type, Cooling Type, Soft Start Enable or not;…) in
+                 the group Valves you’ll have the settings and commands about Purge
+                 and Vent and so on for each different group.
+                 Clicking on a group you’ll obtain the list of the commands present in
+                 that group. If you click on each command you’ll obtain a short
+                 description of each command about its meaning, possible values,
+                 units and if it can be only read or written.
+                 Some parameters can be changed only according to the pump status
+                 (for instance you can only change the soft start when the pump is in
+                 serial mode and is stopped); T-plus moreover manages also this
+                 situation enabling or not the possibility to write in a field according
+                 to the pump status.
+
+
+
+
+        Pump Status and Configuration
+                 In this zone the software shows the most important parameters of the
+                 pumps and the pump status in order the user can always have a
+                 quickly idea of his system status.
+
+
+
+
+Agilent T-plus User Manual / Rev. 1.1                                                      9
+2    Instructions for Use
+     The Single Pump Control Panel
+
+
+        The Single Pump Control Panel Menus
+                   File/Load Readings: open a Reading Window with a Readings
+                    List previously saved (see the section Save and Load Window
+                    Settings).
+                   Tools/Save Global Windows Status: save a file with all the
+                    controller parameters in order to create a complete image of the
+                    controller status and settings. This file may be useful for Agilent
+                    Technical Support to analyze the Vacuum Pump Status.
+                   Tools/View Diagnostic Data List: opens a window with a list of
+                    the last controller fails with the relative status. You can also save
+                    it in file. This function is supported just in some Agilent
+                    controller; please view in your handbook if it is enabled
+                   Tools/Enter Authentication Code : in case of direct assistance at
+                    the customer site Agilent technicians can insert a password to
+                    read some parameters reserved to technical support.
+
+
+
+
+10                                                   Agilent T-plus User Manual / Rev. 1.1
+                                                                 Instructions for Use   2
+                                             Add readings to Log and tracks to Graph
+
+
+
+Add readings to Log and tracks to Graph
+                 Clicking with the right button of the mouse on a field in the window
+                 list you can add this field to the Readings Window (see next section)
+                 or (if this field can be plotted) to the Graph Window (see the data
+                 plotting section).
+
+
+
+
+        Readings Window
+
+
+
+
+Agilent T-plus User Manual / Rev. 1.1                                                   11
+2    Instructions for Use
+     Add readings to Log and tracks to Graph
+
+
+
+
+                The reading window plots till 10 different fields (numeric readings,
+                commands, status, settings) and continuously shows their values on
+                the screen. You can add new fields right-clicking on the window list
+                in the Single Pump Control Panel Window and remove it from the
+                Window right-clicking on the readings list on the Reading Window.
+
+
+
+
+        Log Option
+                Clicking on the menu Data Logger/Show Data Log Dialog a new panel
+                appears on the bottom side of the window. Through this panel you
+                can log all the data showed in the readings list choosing the
+                destination file of the Log and start and stop the log (if you start and
+                stop more times without changing the destination file the system
+                appends different log session to the same file). You can also add some
+                notes to each registration The log file is a table in ASCII format
+                compatible with Microsoft Excel, Matlab and the most important
+                signal analyzer programs.
+
+
+
+
+        Save and Load Readings List
+                When you have created a Readings Window with its Readings List
+                you can save it in order you can load it in a second time without
+                creating it again. To save the readings list you have to click on the
+                menu File/Save this configuration whereas to load it you must click
+                on the menu File/Load Readings in the Single Pump Control Panel
+                Window.
+
+
+
+
+12                                                  Agilent T-plus User Manual / Rev. 1.1
+                                                                Instructions for Use   2
+                                            Add readings to Log and tracks to Graph
+
+
+
+        Data Plotting
+
+
+
+
+                 The Graph window plots till 8 different tracks allocable on two
+                 different Y axes and continuously shows their timing trend on the
+                 screen. You can add new fields right-clicking on the window list in
+                 the Single Pump Control Panel Window. The Graph window is
+                 completely sizable and it has axes limits completely configurable.
+                 Moreover for each track you can choose colour and Y axis (primary
+                 or secondary).
+
+
+
+
+Agilent T-plus User Manual / Rev. 1.1                                                  13
+Agilent Technologies – Vacuum Products Division Info
+Agilent Technologies has Vacuum Products manufacturing plants in Italy and in USA.
+
+
+Italy,
+Agilent Technologies Italia S.p.A.
+Via F.lli Varian 54
+10040 Leinì, (Torino) - Italy
+Tel:     (39) 011 997 9 111
+Fax:     (39) 011 997 9 350
+
+
+USA,
+Agilent Technologies, Inc.
+121 Hartwell Avenue
+Lexington, MA 02421 - USA
+Tel:     (781) 861 7200
+Fax:     (781) 860 5437
+
+
+You can also contact Technical Support at the following Phone numbers:
+Toll Free Number for North America:          1 (800) 882 7426
+Toll Free Number for Europe:                 00 (800) 234 234 00
+
+
+Or writing to vpt-customercare@agilent.com
+For any information about all our products visit our web site at
+www.agilent.com/chem/vacuum
+

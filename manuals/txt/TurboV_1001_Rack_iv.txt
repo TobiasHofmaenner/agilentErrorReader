@@ -1,0 +1,3730 @@
+                Turbo-V 1001 Rack
+                Controller
+                Models
+                X3501-64003
+
+
+
+
+                Manual de Instrucciones
+                User Manual
+
+
+
+
+87-901-033-01
+06/2013
+                                         Warranty                                  contract clause. Use, duplication or
+Notices                                                                            disclosure of Software is subject to
+                                         The material contained in this            Agilent Technologies’ standard
+© Agilent Technologies, Inc. 2013        document is provided “as is,” and is      commercial license terms, and non-
+No part of this manual may be            subject to being changed, without         DOD Departments and Agencies of the
+reproduced in any form or by any         notice, in future editions. Further, to   U.S. Government will receive no
+means (including electronic storage      the maximum extent permitted by           greater than Restricted Rights as
+and retrieval or translation into a      applicable law, Agilent disclaims all     defined in FAR 52.227-19(c)(1-2) (June
+foreign language) without prior          warranties, either express or implied,    1987). U.S. Government users will
+agreement and written consent from       with regard to this manual and any        receive no greater than Limited Rights
+Agilent Technologies, Inc. as governed   information contained herein,             as defined in FAR 52.227-14 (June
+by United States and international       including but not limited to the          1987) or DFAR 252.227-7015 (b)(2)
+copyright laws.                          implied warranties of merchantability     (November 1995), as applicable in any
+                                         and fitness for a particular purpose.     technical data.
+Manual Part Number                       Agilent shall not be liable for errors
+                                         or for incidental or consequential        Trademarks
+Publication Number: 87-901-033-01
+                                         damages in connection with the
+                                         furnishing, use, or performance of        Windows and MS Windows are U.S.
+Edition                                  this document or of any information       registered trademarks of Microsoft
+Edition 06/2013                          contained herein. Should Agilent and      Corporation.
+                                         the user have a separate written
+Printed in ITALY                                                                   Safety Notices
+                                         agreement with warranty terms
+                                         covering the material in this
+                                         document that conflict with these
+Agilent Technologies Italia S.p.A.                                                    CAUTION
+                                         terms, the warranty terms in the
+Vacuum Products Division                 separate agreement shall control.         A CAUTION notice denotes a hazard.
+Via F.lli Varian, 54                                                               It calls attention to an operating
+10040 Leinì (TO)                         Technology Licenses                       procedure, practice, or the like that, if
+                                                                                   not correctly performed or adhered to,
+ITALY                                    The hardware and/or software
+                                                                                   could result in damage to the product
+                                         described in this document are
+                                                                                   or loss of important data. Do not
+                                         furnished under a license and may be
+                                                                                   proceed beyond a CAUTION notice
+                                         used or copied only in accordance
+                                                                                   until the indicated conditions are fully
+                                         with the terms of such license.
+                                                                                   understood and met.
+                                         Restricted Rights Legend
+                                         If software is for use in the                WARNING
+                                         performance of a U.S. Government
+                                         prime contract or subcontract,            A WARNING notice denotes a
+                                         Software is delivered and licensed as     hazard. It calls attention to an
+                                         “Commercial computer software” as         operating procedure, practice, or the
+                                         defined in DFAR 252.227-7014 (June        like that, if not correctly performed
+                                         1995), or as a “commercial item” as       or adhered to, could result in
+                                         defined in FAR 2.101(a) or as             personal injury or death. Do not
+                                         “Restricted computer software” as         proceed beyond a WARNING notice
+                                         defined in FAR 52.227-19 (June 1987)      until the indicated conditions are
+                                         or any equivalent agency regulation or    fully understood and met.
+
+
+                                             Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                           Turbo-V 1001 Rack Controller
+
+
+
+
+Turbo-V 1001 Rack Controller
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                         3/288
+Turbo-V 1001 Rack Controller
+
+
+
+
+4/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                             Contents
+
+
+
+
+Contents
+
+
+                1   Istruzioni per l’uso 15
+                    Informazioni Generali       16
+                    Immagazzinamento 17
+                    Preparazione per l’installazione 18
+                    Installazione     19
+                    Uso 20
+                    Manutenzione 20
+                    Procedure di uso       23
+                    Manutenzione 23
+                    Smaltimento       24
+                    Messaggi di errore 25
+
+                2   Gebrauchsanleitung 27
+                    Allgemeines 28
+                    Lagerung     29
+                    Vor der Installation 30
+                    Installation 31
+                    Gebrauch     32
+                    Wartung      32
+                    Steuerungen, Anzeigen und Verbinden des Controllers 33
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                       5/288
+Contents
+
+
+
+               Bedienung 35
+               Wartung      35
+               Entsorgung 36
+               Fehlermeldungen        37
+
+           3   Mode d’emploi          39
+               Indications generales       40
+               Emmagasinage 41
+               Preparation pour l‘installation   42
+               Installation 43
+               Utilisation 44
+               Entretien    44
+               Commandes, Indicateurs et Connecteurs du Contrôleur       45
+               Procedures d'utilisation 47
+               Entretien    47
+               Mise au rebut     48
+               Messages d'erreur 49
+
+           4   Manual de istrucciones 51
+               Información general 52
+               Almacenamiento         53
+               Preparación para la instalación   54
+               Instalación 55
+               Uso 56
+
+
+
+6/288                       Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                        Contents
+
+
+
+                    Mantenimiento 56
+                    Mandos, Indicadores y Conectores del Controler 57
+                    Procedimientos de uso 59
+                    Mantenimiento 59
+                    Eliminación 60
+                    Mensajes de error       61
+
+                5   Manual de Istruções          63
+                    Informações gerais 64
+                    Armazenagem 65
+                    Preparação para a instalação 66
+                    Instalação 67
+                    Utilização    68
+                    Manutenção         68
+                    Procedimentos de uso         71
+                    Manutenção         71
+                    Eliminação 72
+                    Mensagens de erro 73
+
+                6   Bedrijfshandleiding 75
+                    Algemene informatie          76
+                    Opslag        77
+                    Voorbereiding voor installatie    78
+                    Installatie   79
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                  7/288
+Contents
+
+
+
+               Gebruik      80
+               Onderhoud 80
+               Bedieningsorganen, Controlelampjes en Connectoren
+               van de Controller  81
+               Gebruiksprocedures 83
+               Onderhoud 83
+               Afvalverwerking 84
+               Foutmeldingen 85
+
+           7   Istruktionsbog          87
+               Generel Information 88
+               Opbevaring 89
+               Forberedelser før installation 90
+               Installation 91
+               Anvendelse 92
+               Vedligeholdelse 92
+               Indikatorer og Kontakter på Styreenheden 93
+               Instruktion 95
+               Vedligeholdelse 95
+               Bortskaffelse      96
+               Fejlmeddelelser 97
+
+           8   Bruksanvisning          99
+               Allmän Information 100
+               Förvaring    101
+
+8/288                       Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                               Contents
+
+
+
+                    Förberedelser för installation 102
+                    Installation 103
+                    Användning 104
+                    Underhåll    104
+                    Kontroller, Indikatorer och Kontakter på Styrenheten 105
+                    Instruktioner för bruk     107
+                    Underhåll    107
+                    Bortskaffning      108
+                    Felmeddelanden 109
+
+                9   Instruksjon Manual 111
+                    Generell informasjon 112
+                    Lagring      113
+                    Forberede installasjonen 114
+                    Installasjon 115
+                    Bruk         116
+                    Vedlikehold 116
+                    Kontroller, Indikatorer og Kontakter på Styreenheten 117
+                    Instruksjoner for bruk     119
+                    Vedlikehold 119
+                    Eliminering 120
+                    Feilmeldinger      121
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                         9/288
+Contents
+
+
+
+           10 Ohjekäsikirja             123
+              Yleisiä tietoja     124
+              Varastointi 125
+              Valmistelut asennusta varten126
+              Asennus       127
+              Käyttö        128
+              Huolto        128
+              Valvojan Säätimet, Osoittimet ja Liittimet 129
+              Käyttötoimenpiteet 131
+              Huolto        131
+              Hävittäminen        132
+              Vianetsintä 133
+
+           11 Felhasználói Kézikönyv 135
+              Általános információk           136
+              Tárolás       137
+              A telepítésre való előkészítés138
+              Telepítés     139
+              Használat     140
+              Karbantartás        140
+              A vezérlő parancsai, kijelzői és csatlakozói     141
+              Használati eljárások 143
+              Karbantartás        143
+
+
+
+10/288                       Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                        Contents
+
+
+
+                    Megsemmisítés 144
+                    Hibaüzenetek       145
+
+                12 Podrecznik Instrukcji           147
+                    Informacje ogolne        148
+                    Magazynowanie 149
+                    Przygotowanie do instalacji 150
+                    Instalacja   151
+                    Uzytkowanie        152
+                    Konserwacja        152
+                    Sterowniki, Wskazniki I Laczniki Kontrolera   153
+                    Procedure uzytkowania 155
+                    Konserwacja        155
+                    Przetworstwo odpadow 156
+                    Bledne informacje        157
+
+                13 Návod k Použití           159
+                    Všeobecné informace            160
+                    Uskladnění 161
+                    Příprava k instalaci 162
+                    Instalace    163
+                    Použití      164
+                    Údržba       164
+                    Ovládání, indikátory a konektory Kontroléru   165
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                 11/288
+Contents
+
+
+
+              Používané procedury 167
+              Údržba       167
+              Likvidace    168
+              Chybné zprávy 169
+
+           14 Návod na Obsluhu 171
+              Všeobecné informácie       172
+              Uskladňovanie 173
+              Príprava pre inštaláciu    174
+              Inštalácia   175
+              Použitie     176
+              Údržba       176
+              Povely, Ukazovatele a Prípojky “Controller”   177
+              Postup pri použití   179
+              Údržba       179
+              Likvidácia   180
+              Oznamy vád 181
+
+           15 Priročnik za Navodila      183
+              Splošne informacije 184
+              Skladiščenje185
+              Priprava za montažo 186
+              Montaža      187
+              Uporaba      188
+
+
+
+12/288                     Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                         Contents
+
+
+
+                    Vzdrževanje 188
+                    Komande, indikatorji in konektorji Controllera 189
+                    Postopki uporabe         191
+                    Vzdrževanje 191
+                    Odlaganje opadkov 192
+                    Obvestilo o napaki 193
+
+                16 Instructions for Use 195
+                    General Information 196
+                    Storage      197
+                    Preparation for Installation         198
+                    Installation 199
+                    Use 200
+                    Maintenance        200
+                    Use Procedure 203
+                    Maintenance        203
+                    Disposal     204
+                    Error Messages 205
+
+                17 Technical Information           207
+                    Turbo-V 3KT Rack Controller Description 210
+                    Controller Specifications 212
+                    Controller Outline       213
+                    Fuse Holder Assembly           214
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                  13/288
+Contents
+
+
+
+
+           Connection J1 Remote I/O Interconnections 215
+           Serial Communication (J2 Connector)     230
+           Procedure to Connect the Serial and I/O Ports
+           to an External Cable 231
+           RS 232/RS 485 Communication Description 232
+           Examples    236
+           Window Meanings 238
+           Power Derating Function Temperature Condition 249
+           How to Use by Front Panel   250
+           Programming       254
+           INPUT/OUTPUT Menu 262
+           SETPOINT Submenu 264
+           SERIAL Menu       266
+           Examples    268
+           Orderable Parts 281
+
+
+
+
+14/288                 Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                Turbo-V 1001 Rack Controller User Manual
+
+
+
+
+4
+Manual de istrucciones
+Información general 52
+Almacenamiento 53
+Preparación para la instalación 54
+Instalación       55
+Uso 56
+Mantenimiento 56
+    Mandos, Indicadores y Conectores 57
+Procedimientos de uso       59
+    Encendido del controler 59
+    Puesta en marcha de la Bomba 59
+    Parada de la Bomba      59
+Mantenimiento 59
+Eliminación       60
+Mensajes de error      61
+
+
+
+
+Traducción de las instrucciones originales
+
+
+
+
+                                                 51/288
+4   Manual de istrucciones
+    Información general
+
+
+Información general
+               Este equipo se ha concebido para un uso profesional. El usuario
+               deberá leer atentamente el presente manual de instrucciones y
+               cualquier otra información suplementaria facilitada por Agilent antes
+               de utilizar el equipo. Agilent se considera libre de cualquier
+               responsabilidad debida al incumplimiento total o parcial de las
+               instrucciones, al uso poco apropiado por parte de personal sin
+               formación, a las operaciones no autorizadas o al uso que no cumpla
+               con las normas nacionales específicas.
+               Los controlers de la serie Turbo-V 1001 Rack son convertidores de
+               frecuencia, controlados por un microprocesador, realizados con
+               componentes en estado sólido y con capacidad de autodiagnosis y
+               autoprotección.
+                  Características del controler:
+                  Ajuste automático de la tensión de entrada
+                  Operatividad del frontal / remoto / serial
+                  Pilotaje del ventilador de enfriamiento bomba de 24 Vcc
+                  Pilotaje de las válvulas de seguridad y de purga
+                  Lectura de la velocidad de la bomba tras mando de parada
+                   (lectura velocidad de parada).
+               Se han incluido a continuación todas las informaciones necesarias
+               para garantizar la seguridad del operador durante el uso de este
+               equipo . Para información más detallada consultar el punto
+               "Technical Information".
+
+
+
+
+52/288                         Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                  Manual de istrucciones      4
+                                                                       Almacenamiento
+
+
+                 Este manual utiliza los símbolos convencionales siguientes:
+
+
+
+¡ADVERTENCIA! Los mensajes de advertencia atraen la atención del operador sobre un
+              procedimiento o una operación específica que, al no realizarse
+              correctamente, podría provocar graves lesiones personales.
+
+
+
+
+  ¡ATENCIÓN!      Los mensajes de atención se visualizan antes de procedimientos que, al no
+                  respetarse, podrían provocar daños al equipo.
+
+
+
+
+     NOTA         Las notas contienen información importante extraída del texto.
+
+
+
+
+ Almacenamiento
+                 Durante el transporte y el almacenamiento de los controlers se
+                 deberá cumplir con las condiciones ambientales siguientes:
+                     temperatura: de -20 °C a +70 °C
+                     humedad relativa: 0 – 95 % (no condensadora)
+
+
+
+
+ Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               53/288
+4   Manual de istrucciones
+    Preparación para la instalación
+
+
+Preparación para la instalación
+                El controler se suministra en un embalaje de protección especial; si
+                se observan señales de daños, que podrían haberse producido
+                durante el transporte, ponerse en contacto con la oficina de venta
+                más cercana.
+                Durante la operación de desembalaje, prestar una atención especial a
+                no dejar caer el controler y evitarle golpes.
+                No dispersar el embalaje en el medio ambiente. El material es
+                completamente reciclable y cumple con los requisitos definidos en la
+                Directiva 94/62/CE y sus modificaciones posteriores, para la tutela
+                del Medio Ambiente.
+
+
+
+
+                Figura 1    Embalaje de los Controlers
+
+
+
+
+54/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                   Manual de istrucciones        4
+                                                                              Instalación
+
+
+ Instalación
+
+¡ADVERTENCIA! El controlador Turbo-V está diseñado sólo para su uso en interiores y para
+              mantener la seguridad del usuario debe ser alimentado mediante un cable de
+              3 conductores (v. tabla de las piezas de recambio solicitables) con un tipo de
+              clavija aprobado a nivel internacional. Para evitar el riesgo de descargas
+              eléctricas y cumplir con los requisitos CE, utilizar siempre este cable de
+              alimentación, conectando la clavija a una toma eléctrica dotada con una
+              adecuada conexión a tierra. Dentro del controlador se desarrollan altas
+              tensiones que pueden causar graves daños o la muerte. Antes de efectuar
+              cualquier operación de instalación o mantenimiento del controlador,
+              desconectarlo del enchufe de alimentación.
+
+
+
+
+      NOTA        El controler puede instalarse en una mesa o dentro de un rack específico. En
+                  cualquier caso, es necesario que el aire de refrigeración pueda circular
+                  libremente alrededor del aparato. No instalar y/o utilizar el controler en
+                  ambientes expuestos a agentes atmosféricos (lluvia, hielo y nieve), polvos,
+                  gases agresivos, en ambientes explosivos o con alto riesgo de incendio.
+
+
+                  Durante el funcionamiento es necesario que se respeten las
+                  condiciones ambientales siguientes:
+                      temperatura: de 0 °C a + 45 °C
+                      humedad relativa: 0 – 95 % (no condensadora).
+                  Para otras conexiones y la instalación de los accesorios opcionales,
+                  véase la sección “Technical Information”.
+
+
+
+
+ Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                 55/288
+ 4    Manual de istrucciones
+      Uso
+
+
+
+
+ Uso
+                  En este apartado se citan los procedimientos operativos principales.
+                  Para más detalles y para procedimientos que impliquen conexiones u
+                  opcionales especiales, les remitimos al apartado “Use” del anexo
+                  “Technical Informations”.
+                  Antes de usar el controler efectuar todas las conexiones eléctricas y
+                  neumáticas y consultar el manual de la bomba conectada.
+
+
+
+¡ADVERTENCIA! Para evitar lesiones a las personas y al aparato, si la bomba está apoyada
+              sobre una mesa cerciorarse que es estable. No poner en marcha nunca la
+              bomba si la brida de entrada no está conectada al sistema o no está cerrada
+              con la brida de cierre.
+
+
+
+
+ Mantenimiento
+                  Il Turbo-V 1001 Rack Controller no necesita mantenimiento.
+                  Cualquier tipo de intervención en el sistema deberá ser realizado
+                  por personal autorizado.
+
+
+
+
+ 56/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                          Manual de istrucciones          4
+                                                                                 Mantenimiento
+
+
+        Mandos, Indicadores y Conectores del Controler
+
+                                                                                  5
+
+
+
+
+                                     1
+                                                                                  3
+
+                                     2
+                                                                                  4
+                                                      Turbo-V 1001 Rack
+
+
+
+
+                Figura 2       Panel Frontal del Controler X3501-64003
+
+                Las funciones de los pulsadores dependen del contexto (ventana
+                principal, menú de configuración, etc.).
+
+ 1              Pulsador para la selección de los modos START, STOP, RESET. Se activa sólo si ha sido
+                seleccionado el control mediante el panel frontal. Apretando una vez este pulsador, se
+                activa la fase de puesta en marcha; apretándolo otra vez la bomba se para . Si la bomba
+                se para de forma automática por un error, este pulsador deberá ser apretado dos veces:
+                la primera para reajustar el controler y la segunda para volver a poner en marcha la
+                bomba.
+ 2              Pulsador para visualizar en pantalla: número y tiempo de duración del ciclo, , vida
+                operativa de la bomba y número de serie .
+ 3              Pulsador para visualizar en pantalla: corriente temperatura, potencia y velocidad de
+                rotación de la bomba . Está siempre activo independientemente del modo operativo
+                seleccionado .
+ 4              Pulsador para la selección del modo HIGH/LOW SPEED. Está activado sólo si se ha
+                seleccionado el control mediante el panel frontal . Apretándolo varias veces se conmuta
+                el modo entre HIGH SPEED y LOW SPEED.
+ 5              Pantalla alfanumérica LCD retroiluminada: matriz de puntos, 4 líneas x 16 caracteres.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                          57/288
+4       Manual de istrucciones
+        Mantenimiento
+
+                   Apretando contemporáneamente, durante 2 segundos como mínimo,
+                   los pulsadores 2 y 3, se tiene acceso al menú de configuración del
+                   controler. En el ambiente de configuración los 4 pulsadores permiten
+                   navegar por el menú y cambiar el valor de los parámetros.
+
+
+
+
+                                                                     5
+
+                                                                6                                          2
+                                                                                                           4
+                     1
+                                                                                                       3
+
+
+
+
+                   Figura 3      Panel Trasero del Controler X3501-64003
+
+    1             Módulo de alimentación del controler, con fusibles, toma de alimentación y filtro EMC.
+    2             Puerto de comunicación RS-232 / RS-485.
+    3             Conector para las señales lógicas de input/output con salida analógica programable (el
+                  conector de acoplamiento viene suministrado con el correspondiente puente de cierre
+                  del Interlock).
+    4             Cable para la bomba.
+    5             Conector de salida para el control de las válvulas de seguridad y de purga .
+    6             Conector de salida para ventilador externo.
+
+
+
+
+58/288                                   Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                 Manual de istrucciones          4
+                                                                 Procedimientos de uso
+
+
+Procedimientos de uso
+
+        Encendido del controler
+                Para encender el controler, conectar la clavija del cable de
+                alimentación a una toma eléctrica adecuada.
+
+
+        Puesta en marcha de la Bomba
+                Para poner en marcha la bomba hay que apretar el pulsador START
+                del panel frontal.
+
+    NOTA        Para poner en marcha la bomba es necesario habilitar la conexión de interlock
+                de seguridad. Con este fin, acoplar al conector J1 el conector correspondiente
+                suministrado en dotación.
+
+
+
+        Parada de la Bomba
+                Para detener la bomba hay que apretar el pulsador STOP del panel
+                frontal.
+
+
+
+Mantenimiento
+                Los controlers de la serie Turbo-V 1001 Rack no necesitan ningún
+                mantenimiento. Cualquier operación ha de ser efectuada por
+                personal autorizado.
+                En caso de avería es posible utilizar el servicio de reparación Agilent
+                o del “Agilent advance exchange service”, que permite obtener un
+                controler regenerado en vez del averiado.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                 59/288
+ 4    Manual de istrucciones
+      Eliminación
+
+
+
+¡ADVERTENCIA! Antes de efectuar cualquier operación en el controler desenchufar el cable
+              de alimentación.
+
+
+
+
+                 En caso de que un controler se tenga que desguazar, efectuar su
+                 eliminación respetando las normas nacionales específicas.
+
+
+ Eliminación
+                 Significado del logotipo "WEEE" presente en las etiquetas. El
+                 símbolo que se indica a continuación, es aplicado en observancia de
+                 la directiva CE denominada "WEEE". Este símbolo (válido sólo para
+                 los países miembros de la Comunidad Europea) indica que el
+                 producto sobre el cual ha sido aplicado, NO debe ser eliminado junto
+                 con los residuos comunes sean éstos domésticos o industriales, y que,
+                 por el contrario, deberá ser sometido a un procedimiento de recogida
+                 diferenciada. Por lo tanto, se invita al usuario final, a ponerse en
+                 contacto con el proveedor del dispositivo, tanto si éste es la casa
+                 fabricante o un distribuidor, para poder proveer a la recogida y
+                 eliminación del producto, después de haber efectuado una
+                 verificación de los términos y condiciones contractuales de venta.
+
+
+
+
+ 60/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                     Manual de istrucciones            4
+                                                                         Mensajes de error
+
+
+Mensajes de error
+                Em alguns casos de defeitos, os sistemas de autodiagnóstico do
+                controller apresentam mensagens de erro relacionadas na tabela
+                abaixo
+
+                Tab. 1
+
+                  MENSAJE             DESCRIPCIÓN                           ACCIÓN CORRECTIVA
+                  CHECK               Mal funcionamiento en la              Controlar las conexiones
+                  CONNECTION          conexión entre la bomba y el          entre la bomba y el
+                  TO PUMP             Controler.                            controler.
+                                                                            Apretar dos veces el
+                                                                            pulsador START para
+                                                                            volver a poner en marcha
+                                                                            la bomba.
+                  PUMP WAITlNG        Está activa la señal de interlock     Eliminar el cortocircuito
+                  INTERLOCK           presente en el conector J1 a          entre el pin 3 y el pin 9 y
+                                      causa de la interrupción del          entre el pin 4 y pin 15 del
+                                      cortocircuito entre el pin 3 y el     conector J1, o cerrar la
+                                      pin 9 y entre el pin 4 y pin 15 del   señal de interlock exterior.
+                                      conector P1, o a causa de la
+                                      apertura de la señal de interlock
+                                      externo.
+                  FAULT: PUMP         La temperatura del rodamiento         Esperar a que la
+                  OVERTEMP.           superior de la bomba ha               temperatura vuelva por
+                                      superado los 60 ºC.                   debajo del umbral.
+                                                                            Apretar dos veces el
+                                                                            pulsador START para
+                                                                            volver a poner en marcha
+                                                                            la bomba.
+                  FAULT:              La temperatura del                    Esperar a que la
+                  CONTROLLER          transformador del controler ha        temperatura vuelva por
+                  OVERTEMPERATURE     superado los 65 ºC.                   debajo del umbral.
+                                                                            Apretar dos veces el
+                                                                            pulsador START para
+                                                                            volver a poner en marcha
+                                                                            la bomba.
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                        61/288
+4   Manual de istrucciones
+    Mensajes de error
+
+
+                MENSAJE               DESCRIPCIÓN                        ACCIÓN CORRECTIVA
+                FAULT: TOO HIGH       Durante el funcionamiento          Comprobar que el rotor de
+                LOAD                  normal (tras la fase de puesta     la bomba tiene la
+                                      en marcha) la corriente            posibilidad de girar
+                                      absorbida por la bomba es          libremente.
+                                      superior a la programada.          Controlar que la longitud
+                                                                         del cable bomba haya sido
+                                                                         configurado de forma
+                                                                         correcta.
+                                                                         Apretar dos veces el
+                                                                         pulsador START para
+                                                                         volver a poner en marcha
+                                                                         la bomba.
+                FAULT: SHORT          Durante el funcionamiento          Comprobar las conexiones
+                CIRCUIT               normal (después de la fase de      entre la bomba y el
+                                      puesta en marcha) se ha            controler.
+                                      detectado una condición de         Apretar dos veces el
+                                      cortocircuito en el circuito de    pulsador START para
+                                      potencia.                          volver a poner en marcha
+                                                                         la bomba.
+                OVERVOLTAGE           Ha occurrido una avería en la      Apretar dos veces el
+                                      sección de alimentación del        pulsador START para
+                                      controler, o el controler ha       volver a poner en marcha
+                                      recibido una interferencia desde   la bomba.
+                                      la alimentación de red.            En caso el mensaje vuelva
+                                                                         a aparecer, llamar a
+                                                                         Agilent para la
+                                                                         manutención.
+
+
+
+
+62/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                 Turbo-V 1001 Rack Controller User Manual
+
+
+
+
+16
+Instructions for Use
+General Information 196
+Storage            197
+Preparation for Installation 198
+Installation       199
+Use 200
+Maintenance        200
+    Controls, Indicators and Connectors 201
+Use Procedure 203
+    Controller Startup 203
+    Starting the Pump 203
+    Pump Shutdown 203
+Maintenance        203
+Disposal           204
+Error Messages 205
+
+
+
+
+Original Instructions
+
+
+
+
+                                                 195/288
+16   Instructions for Use
+     General Information
+
+
+General Information
+                 This equipment is intended for use by professionals. The user should
+                 read this instruction manual and any other additional information
+                 supplied by Agilent before operating the equipment. Agilent will not
+                 be held responsible for any events occurring due to non-compliance,
+                 even partial, with these instructions, improper use by untrained
+                 people, non-authorized interference with the equipment or any
+                 action contrary to that provided for by specific national standards.
+                 The Turbo-V 1001 Rack Controller are microprocessor-controlled,
+                 solid-state, frequency converters with self-diagnostic and self-
+                 protection features.
+                 Controller features:
+                    Input voltage auto setting
+                    Front / Remote / Serial Operation
+                    24 Vdc pump fan cooling drive
+                    Vent & Purge valves drive
+                    Pump speed reading after stop command (stop speed reading)
+                 The following paragraphs contain all the information necessary to
+                 guarantee the safety of the operator when using the equipment.
+                 Detailed information is supplied in the appendix "Technical
+                 Information".
+
+
+
+
+196/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                     Instructions for Use   16
+                                                                                 Storage
+
+
+                This manual uses the following conventions:
+
+
+
+ WARNING!       The warning messages are for attracting the attention of the operator to a
+                particular procedure or practice which, if not followed correctly, could lead
+                to serious injury.
+
+
+
+
+ CAUTION!       The caution messages are displayed before procedures which, if not followed,
+                could cause damage to the equipment.
+
+
+
+
+    NOTE        The notes contain important information taken from the text.
+
+
+
+Storage
+                When transporting and storing the controllers, the following
+                environmental requirements should be satisfied:
+                    temperature: from -20 °C to + 70 °C
+                    relative humidity: 0 – 95 % (without condensation)
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               197/288
+16   Instructions for Use
+     Preparation for Installation
+
+
+Preparation for Installation
+                 The controller is supplied in a special protective packing. If this
+                 shows signs of damage which may have occurred during transport,
+                 contact your local sales office. When unpacking the controller ensure
+                 that it is not dropped or subjected to any form of impact. Do not
+                 dispose of the packing materials in an unauthorized manner. The
+                 material is 100% recyclable and complies with Directive 94/62/CE
+                 and subsequent amendments.
+
+
+
+
+                 Figure 1     Controllers Packing
+
+
+
+
+198/288                             Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                     Instructions for Use    16
+                                                                              Installation
+
+
+Installation
+
+ WARNING!       The Turbo-V controller is designed for indoor use only and must be powered
+                with 3-wire power cord (see orderable parts table) and plug (internationally
+                approved) for user's safety. Use this power cord and plug in conjunction
+                with a properly grounded power socket to avoid electrical shock and to
+                satisfy CE requirements. High voltage developed in the controller can
+                cause severe injury or death. Before servicing the unit, disconnect the
+                input power cable.
+
+
+
+
+    NOTE        The Turbo-V controller can be used as a bench unit or a rack module, but it must
+                be positioned so that free air can flow through the holes. Do not install or use
+                the controller in an environment exposed to atmospheric agents (rain, snow,
+                ice), dust, aggressive gases, or in explosive environments or those with a high
+                fire risk.
+
+
+                During operation, the following environmental conditions must be
+                respected:
+                   temperature: from 0 °C to +45 °C;
+                   relative humidity: 0 – 95 % (without condensation).
+                See the appendix “Technical Information” for detailed Information
+                about the above mentioned and the other connections, and about the
+                options installation.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               199/288
+16   Instructions for Use
+     Use
+
+
+Use
+                 This paragraph describes the fundamental operating procedures.
+                 Detailed information and operating procedures that involve optional
+                 connections or options are supplied in the paragraph "USE" of the
+                 appendix "Technical Information".
+                 Make all vacuum manifold and electrical connections and refer to
+                 Turbo-V pump instruction manual prior to operating the Turbo-V
+                 controller.
+
+
+
+ WARNING!        To avoid injury to personnel and damage to the equipment, if the pump is
+                 lying on a table make sure it is steady. Never operate the Turbo-V pump if
+                 the pump inlet is not connected to the system or blanked off.
+
+
+
+
+Maintenance
+                 The Turbo-V 1001 Rack Controller does not require any maintenance.
+                 Any work performed on the system must be carried out by
+                 authorized personnel.
+
+
+
+
+200/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                            Instructions for Use          16
+                                                                                   Maintenance
+
+
+        Controls, Indicators and Connectors
+
+                                                                                   5
+
+
+
+
+                                      1
+                                                                                   3
+
+                                      2
+                                                                                   4
+                                                       Turbo-V 1001 Rack
+
+
+
+
+                Figure 2       Controller X3501-64003 Front Panel
+
+                The keys function depends on the context (main window,
+                configuration menu, etc.).
+
+ 1              Keyboard push-button for START, STOP, RESET mode selection. It is active only when
+                the front panel operation has been selected. By pressing once the starting phase
+                begins; if pressed again it stops the pump. If the pump has been stopped automatically
+                by a fault, this push-button must be pressed once to reset the controller and a second
+                time to restart the pump.
+ 2              Keyboard push-button to recall on the display the cycle number, cycle time and pump
+                life and serial number.
+ 3              Keyboard push-button to recall on the display the pump current, pump temperature,
+                pump power, rotational speed. It is always active, regardless of the selected operating
+                mode.
+ 4              Keyboard push-button for HIGH/LOW SPEED mode selection. It is active only when the
+                front panel operation has been selected. Pressed repeatedly, toggles between HIGH
+                SPEED and LOW SPEED.
+ 5              LCD back-lighted alphanumeric display: dot matrix 4 lines x 16 characters.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                         201/288
+16   Instructions for Use
+     Maintenance
+
+                 Push-buttons 2 and 3, if pressed together for at least 2 seconds allow
+                 to access the controller configuration menu. In configuration
+                 environment all of four buttons allow to navigate the menu and to
+                 change the parameters’ values.
+
+
+
+
+                                                                 5
+
+                                                          6                                         2
+                                                                                                    4
+                   1
+                                                                                                   3
+
+
+
+
+                 Figure 3     Controller X3501-64003 Rear Panel
+
+ 1              Controller power entry module consisting of mains fuses, mains socket and EMC filter.
+ 2              RS-232 / RS-485 communication port connector.
+ 3              Logic input/output signals connector plus programmable analog output (mating
+                connector supplied with Interlock link).
+ 4              Pump cable.
+ 5              Vent Valve and Purge Valve control output connector.
+ 6              External Fan output connector.
+
+
+
+
+202/288                              Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                     Instructions for Use   16
+                                                                          Use Procedure
+
+
+Use Procedure
+
+        Controller Startup
+                To startup the controller plug the power cable into a suitable power
+                source.
+
+
+        Starting the Pump
+                To start the pump press the START/STOP push-button on the
+                controller front panel.
+
+    NOTE        In order to start the pump the Interlock safety connection must be secured. This
+                can be achieved by connecting to J1 connector the supplied mating connector.
+
+
+
+        Pump Shutdown
+                To shutdown the pump press the START/STOP push-button on the
+                controller front panel.
+
+Maintenance
+                The Turbo-V 1001 Rack Controller does not require any maintenance.
+                Any work performed on the controller must be carried out by
+                authorized personnel.
+                When a fault has occurred it is possible to use the Agilent repair
+                service. Replacement controllers are available on an advance
+                exchange basis through Agilent.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               203/288
+16   Instructions for Use
+     Disposal
+
+
+
+ WARNING!        Before carrying out any work on the controller, disconnect it from the
+                 supply.
+
+
+
+
+                 If a pump is to be scrapped, it must be disposed off in accordance
+                 with the specific national standards.
+
+
+Disposal
+                 Meaning of the "WEEE" logo found in labels
+                 The following symbol is applied in accordance with the EC WEEE
+                 (Waste Electrical and Electronic Equipment) Directive. This symbol
+                 (valid only in countries of the European Community) indicates that
+                 the product it applies to must NOT be disposed of together with
+                 ordinary domestic or industrial waste but must be sent to a
+                 differentiated waste collection system. The end user is therefore
+                 invited to contact the supplier of the device, whether the Parent
+                 Company or a retailer, to initiate the collection and disposal process
+                 after checking the contractual terms and conditions of sale.
+
+
+
+
+204/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                        Instructions for Use       16
+                                                                            Error Messages
+
+
+Error Messages
+                For a certain type of failure, the controller will self-diagnose the
+                error and the messages described in the following table are
+                displayed.
+
+                Tab. 1
+
+                 MESSAGE             DESCRIPTION                          REPAIR ACTION
+                 CHECK               Wrong connection between the         Check connections
+                 CONNECTION TO       pump and the controller.             between controller and
+                 PUMP                                                     pump.
+                                                                          Press the START push-
+                                                                          button twice to start the
+                                                                          pump.
+                 PUMP WAITING        The interlock signal of J1           Reset the short circuit
+                 INTERLOCK           connector is activated by an         between pin 3 - 9 and
+                                     interruption of the link between     between pin 4 - 15 of J1
+                                     pin 3 and 9 or between pin 4 and     connector, or close the
+                                     15 of P1 connector, or because       external interlock signal.
+                                     the external interlock signal is
+                                     open.
+                 FAULT: PUMP         The pump upper bearing               Wait until the temperature
+                 OVERTEMP.           temperature exceeded 60 °C.          decrease below threshold
+                                                                          value.
+                                                                          Press the START push-
+                                                                          button twice
+                                                                          to start the pump.
+                 FAULT:              The controller internal              Wait until the temperature
+                 CONTROLLER          temperature exceeded 65 °C.          decrease below threshold
+                 OVERTEMPERATURE                                          value.
+                                                                          Check that the pump cable
+                                                                          length has been set
+                                                                          correctly.
+                                                                          Press the START push-
+                                                                          button twice to start the
+                                                                          pump.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                    205/288
+16   Instructions for Use
+     Error Messages
+
+
+                  MESSAGE               DESCRIPTION                        REPAIR ACTION
+                  FAULT: TOO HIGH       In normal operation, the current   Check that the pump rotor
+                  LOAD                  drawn by the pump is higher        is free to rotate.
+                                        than programmed.                   Press the START push-
+                                                                           button twice to start the
+                                                                           pump.
+                  FAULT: SHORT          During normal functioning (after   Check connections and
+                  CIRCUIT               the start-up phase), a short-      shortages between pump
+                                        circuit condition has been         and controller. Press the
+                                        detected in the power circuit.     START push-button twice
+                                                                           to start the pump.
+                  OVERVOLTAGE           A failure has occurred in the      Press the START button
+                                        controller power supply section,   twice to start the pump
+                                        or the controller has received a   again. If the message is
+                                        disturbance from the mains.        redisplayed, contact
+                                                                           Agilent for maintenance.
+
+
+
+
+206/288                             Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+               Turbo-V 1001 Rack Controller User Manual
+
+
+
+
+17
+Technical Information
+Turbo-V 1001 Rack Controller Description 210
+Controller Specifications 212
+Controller Outline     213
+Fuse Holder Assembly       214
+Connection J1 Remote I/O Interconnections       215
+      Signals Description 216
+      Connection P1 PURGE-VENT 223
+Connection P2 EXTERNAL FAN          224
+      Controller-to-Pump Connection 225
+      Input / Output Electrical Specifications  226
+      Auto Pump Speed Mode – with Purge/Vent Device
+      Accessory Only 227
+      On Command Mode – with Purge/Vent Device Accessory Only
+      Autotime Mode – with Purge/Vent Device Accessory Only
+      228
+      Controlled Venting 228
+      Stop Speed Reading 230
+Serial Communication (J2 Connector) 230
+Procedure to Connect the Serial and I/O Ports to an External Cable 231
+RS 232/RS 485 Communication Description 2312
+      Communication Format 232
+      Communication Protocol 233
+
+
+
+Original Instructions
+
+
+
+
+                                                  207/288
+17   Technical Information
+     Error Messages
+
+
+
+                              Examples        236
+                                   Window Meanings 238
+                                   Soft Start 244
+                                   Agilent T-Plus 245
+                                   Embedded Data Logger Manager (New Function) 246
+                                   Drive the External Fan 248
+                              Power Derating Function during High Temperature Condition 249
+                              How to Use by Front Panel     250
+                                   Startup    250
+                                   Main Screen: 250
+                                   Pump Start, Stop and Reset Fail 251
+                                    Counters / Controller Data     252
+                              Programming 254
+                                   Configuration Menu 257
+                                   PUMP SETTING Menu 259
+                              INPUT/OUTPUT Menu 262
+                              SETPOINT Submenu 264
+                              SERIAL Menu 266
+
+
+
+
+208/288                      Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                  Technical Information   17
+                                                                       Error Messages
+
+
+
+
+                                              Examples      268
+                                                   Fails:   276
+                                        Auto Test Phase:    279
+                                   Orderable Parts 281
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                             209/288
+17   Technical Information
+     Turbo-V 1001 Rack Controller Description
+
+
+Turbo-V 1001 Rack Controller Description
+                The model is provided with a front panel with an LCD alphanumeric
+                display to indicate the operating conditions/parameters of the Turbo-
+                V pump and a keyboard, and a rear panel with input/output
+                connectors. The following figure is a picture of the Turbo-V 1001
+                controllers.
+                The controller is a solid-state frequency converter which is driven by
+                a single chip DSP and is composed of one PCB which include 3-phase
+                output, analog and input/output section, Digital Signal Processor and
+                digital section.
+                The controller converts mains voltage supply into a 3-phase, low
+                voltage, medium frequency output which is required to power the
+                pump. The controller can be operated by a remote host computer via
+                the serial connection. A Windows-based software is available (T-Plus
+                optional). The DSP generates the variable output frequency and
+                controls the 3-phase output voltage according to the software and the
+                gas load condition of the pump. Moreover, it manages signals from
+                sensors, input/output connection information to be displayed, and
+                gives outputs for a fully automatic operation.
+                An EEPROM internal to the DSP is used to store pump operating
+                parameters and the input/output programmed information.
+                The controller can be operated via:
+                    Front panel switches
+                    Remote signals via rear panel connectors
+                    RS 232 and RS 485 serial link.
+
+
+
+
+210/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                Technical Information    17
+                                              Turbo-V 1001 Rack Controller Description
+
+
+
+
+                Figure 4    Turbo-V 1001 Rack Controller
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                            211/288
+17    Technical Information
+      Controller Specifications
+
+
+Controller Specifications
+Tab. 2
+ Input:
+ Voltage                                   100 ÷ 240 Vac (±10 %), 1-phase
+ Frequency                                 50 to 60 Hz
+ Power                                     800 VA maximum
+ Output for pump:
+ Power during pump ramp-up                 450 W maximum
+ Power normal (pump water cooled)          450 W maximum
+ Power normal (pump air cooled)            300 W maximum
+ Operating temperature                     5 °C to +45 °C
+ Storage temperature                       -20 °C to +70 °C
+ Fuse:
+ Mains                                     2 x T10 AH (slow blow) 250 V 5x20 fuses
+ Serial communication (T-Plus kit)         RS232 cable with a 9-pin D type male connector and a 9-
+                                           pin D type female connector, and T-Plus software
+                                           (optional)
+ Power cable                               With European or NEMA plug 3 meters long (optional)
+ Pump cable                                5 meters long fixed cable
+ In compliance with norms                  EN 61010-1 (2001)
+                                           EN 61326-1 (2006)
+                                           Emission level : Class B for Residential Application
+                                           Immunity level : for Industrial Application
+ Max altitude                              2000 m
+ Protection category                       IP 20
+ Internal use only
+ Weight (both models)                      6.3 kg (13.9 lbs)
+ Installation category                     II
+ Pollution degree                          2
+
+
+
+
+212/288                              Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                      Technical Information    17
+                                                                          Controller Outline
+
+
+
+    NOTE          All connecting cables for remote I/O and serial connections, if longer than 3 m,
+                  must be of the shielded type.
+
+
+
+
+Controller Outline
+                  The outline dimensions for the Turbo-V 1001 Rack Controller are
+                  shown in the following figures:
+
+
+
+
+                 Turbo-V 1001 Rack
+
+
+
+
+Figure 5 Controller models X3501-64003 outline
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                  213/288
+17   Technical Information
+     Fuse Holder Assembly
+
+
+Fuse Holder Assembly
+                The following figure shows the location of this assembly.
+
+
+
+
+                                                                                     A
+
+
+
+
+                                             A
+
+                Figure 6     Rear panel
+
+                Proceed as follows to replace one or both fuses:
+                1. Remove the fuse holders (position A) with a small screwdriver.
+                2. Replace the fuse.
+                3. Use only T-type fuses of the following characteristics:
+                   - 250 Vac 10 A (5x20 mm) High breaking capacity
+
+
+
+
+214/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                Technical Information   17
+                                            Connection J1 Remote I/O Interconnections
+
+
+Connection J1 Remote I/O Interconnections
+
+
+
+
+                Figure 7    Remote I/ O connector
+
+                All the input/output remote signals to/from the controller must be
+                connected at P1 mating connector. With the provided J1 mating
+                connector (shipped with pin 3 shorted with pin 9 and pin 4 shorted
+                with pin 15) make the connection with AWG 24 (0.25 mm2) or smaller
+                wire to the pins indicated in the figure to obtain the desired
+                capability. It is a 15-pins D type connector; the available signals are
+                detailed in the table, the following paragraphs describe the signal
+                characteristics and use.
+
+                Tab. 3
+
+                PIN N.     SIGNAL                                        INPUT/OUTPUT
+                1          START/STOP (+)                                IN
+                2          START/STOP (-)                                IN
+                3          INTERLOCK (+)                                 IN
+                4          INTERLOCK (-)                                 IN
+                5          SPEED SETTING (+)                             IN
+                6          SPEED SETTING (-)                             IN
+                7          SOFT START (+)                                IN
+                8          SOFT START (-)                                IN
+                9          +24Vdc                                        OUT
+                10         SET POINT (RELAY)                             OUT
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                           215/288
+17   Technical Information
+     Connection J1 Remote I/O Interconnections
+
+                PIN N.     SIGNAL                                      INPUT/OUTPUT
+                11         PROGRAMMABLE SET POINT (OPEN COLLECTOR)     OUT
+                12         SET POINT (RELAY)                           OUT
+                13         FAULT OUTPUT                                OUT
+                14         PROGRAMMABLE ANALOG SIGNAL                  OUT
+                15         GROUND (& PROGRAMMABLE ANALOG SIGNAL (-)    --
+
+                When no external input-output device is available this connector
+                must be closed with the supplied mating connector that short-circuits
+                the START/STOP (+) & (-) and INTERLOCK (+) & (-) inputs with the
+                +24Vdc & GROUND.
+
+
+
+          Signals Description
+                START/STOP: input signal (opt isolated) to start or stop the pump.
+                With the supplied mating connector the START/STOP (+) signal is
+                connected to the +24 Vdc pin and the START/STOP (-) signal to the
+                GROUND pin: in this condition the pump automatically starts as soon
+                as the controller recognizes the input supply ("Plug & Pump").
+                INTERLOCK: safety input signal (opt isolated) to control the pump
+                rotation activation.With the supplied mating connector the
+                INTERLOCK (+) signal is connected to the +24Vdc pin and the
+                INTERLOCK (-) signal to the GROUND pin.
+                PROGRAMMABLE SET POINT: This is a programmable set point
+                output (open collector) that can be related to: Frequency, Power,
+                Time, Status. The output is activated when the reference quantity
+                chosen is higher than the threshold set value.
+                The output logic can be configured as “high level active” = when the
+                output is active the pin voltage is low or as “low level active” = when
+                the output is active the pin voltage is high (+24V).
+
+
+
+
+216/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                              Technical Information   17
+                                          Connection J1 Remote I/O Interconnections
+
+
+
+
+                Figure 8
+
+                Moreover, if the reference quantity is the frequency, the current
+                drawn or the pressure measured, it is possible to set the hysteresis
+                (in % of the threshold value) to avoid bouncing.
+                It is possible to delay the set point checking for a programmable
+                delay time.
+                 For example:
+                   reference quantity: frequency
+                   threshold: 500 Hz
+                   threshold hysteresis: 1 %
+                   activation logic: high level active
+                   delay time: 0 s
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                         217/288
+17   Technical Information
+     Connection J1 Remote I/O Interconnections
+
+
+
+
+                             Voltage across the L OAD (Vd c)
+
+
+
+                                                                            495      500       505
+
+
+
+
+                Figure 9
+
+                The set PROGRAMMABLE SET POINT Output voltage stays at 24 Vdc
+                until the frequency becomes higher than 505 Hz (that is 500 Hz + 1%
+                of 500 Hz), then the output goes at 0 Vdc and stays at 0 Vdc until the
+                frequency becomes lower than 495 Hz (that is 500 Hz – 1% of 500 Hz).
+                The PROGRAMMABLE SET POINT signal has the following default
+                settings:
+                   reference quantity: frequency
+                   threshold: 582 Hz
+                   Threshold hysteresis: 2 %
+                   activation type: high level active
+                   delay time: 0 s
+                These settings can be changed by means of serial interfaces (see
+                “Windows Meaning” table, windows form 101 to 105). The same
+                settings are used by the SET POINT CONTACT OUTPUT.
+                SET POINT CONTACT OUTPUT: This output (relay contact) works
+                in the same way like THE PROGRAMMABLE SET POINT: it uses the
+                same settings used by this programmable set point.
+                In particular it is activated when the reference quantity chosen
+                (frequency, current, time, status normal) is higher than the threshold
+                setting value.
+
+
+
+
+218/288                                                        Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                Technical Information           17
+                                            Connection J1 Remote I/O Interconnections
+
+                The contact logic is configured depending on Activation Type
+                parameter status. If Activation Type is “high level active” the contact
+                is configured as “normally open” (it will close the circuit when
+                activated), if Activation Type is “low level active” the contact is
+                configured as or “normally closed” (it will open the circuit when
+                activated).
+                Then the default factory setting for this contact output is normally
+                open.
+                SPEED SETTING: PWM input signal (opt isolated) to set the pump
+                speed. The PWM signal characteristics must be the following:
+                   frequency: 100 Hz +/-20 %
+                   amplitude: from 5 to 24 V
+                   duty cycle range: from 25 % to 75 % (toff/T) corresponding to a
+                    rotational frequency from 200 Hz to 650 Hz linearly. With duty
+                    cycle <25 % rotational frequency = 200 Hz, with duty cycle >75 %
+                    rotational frequency = 650 Hz
+
+     NOTE       The duty cycle percentage is referred to the low level portion of the PWM
+                signal
+
+
+
+     NOTE       High Speed is the nominal rotational frequency of the pump (650 Hz). Low
+                Speed (440 Hz) corresponds to the rotational frequency for a stand by status.
+                Users can set rotational frequency between these two values.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                219/288
+17   Technical Information
+     Connection J1 Remote I/O Interconnections
+
+
+
+
+                Figure 10
+
+                If any signal isn’t applied (no connection) the driving frequency is set
+                to “Maximum ROTATIONAL frequency” (the default value is 650 Hz;
+                it is settable via serial line by means of window 121: see the serial
+                command table).
+                If a continuous signal is applied (for example pin 5 connected to pin
+                9 and pin 6 connected to pin 15  toff/T = 0%) the driving frequency
+                is set to “Low Speed” (the default value is 440 Hz; it is settable via
+                serial line by means of window 117: see the serial command table).
+                The “Low Speed” function can also be activated by serial
+                communication with window 1, and the low speed value can be
+                adjusted via window 117.
+                Both low speed value (win.117) and high-speed value (win.120) are
+                limited between 440 Hz (value that can’t be set by the user) and
+                “Maximum excitation frequency” (win.121, 650 Hz default).
+                SOFT START: input signal (opt osolated) to activate the Soft Start
+                function. This function must be activated (pin 7 shorted with pin 9
+                and pin 8 shorted with pin 15) if the pump remains unused for a
+                protracted stop, and de-activated for the next run-up. See the
+                paragraph “SOFT START” for a more detailed description.
+
+
+
+
+220/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                              Technical Information   17
+                                          Connection J1 Remote I/O Interconnections
+
+                PROGRAMMABLE ANALOG SIGNAL: this signal is an output
+                voltage (from 0 to 10 Vdc, max load 1.5 mA) proportional to a
+                reference quantity (frequency, power, pump temperature) chosen by
+                the user (by means of the front panel commands or through serial
+                command – window 111). The default setting is frequency (see the
+                following example diagrams).
+
+
+
+
+                                                                      650
+
+
+
+
+                Figure 11
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                         221/288
+17   Technical Information
+     Connection J1 Remote I/O Interconnections
+
+                The analog output power related is showed in the following diagram:
+
+
+
+
+                Figure 12
+
+                The analog output pump temperature related is showed in the
+                following diagram:
+
+
+
+
+                Figure 13
+
+
+
+
+222/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                              Technical Information   17
+                                          Connection J1 Remote I/O Interconnections
+
+
+
+
+        Connection P1 PURGE-VENT
+
+
+
+
+                Figure 14
+
+
+
+    NOTE        ref.7 in figure above
+
+
+                The Turbo-V 1001 Pumping system can have as an optional accessory
+                the purge/vent device (model X3501-68002). Through P1 connector
+                the controller is able to drive the Vent Valve ( Normally Open) placed
+                on the accessory.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                         223/288
+17   Technical Information
+     Connection J1 Remote I/O Interconnections
+
+          Connection P2 EXTERNAL FAN
+                This is a dedicated 24 Vdc connector to supply the optional external
+                fan kit through a suitable optional extention cable (see Orderable
+                Parts table).
+                See Window Meaning table and HOW TO USE BY FRONT PANEL
+                chapter to know the external fan possible settings.
+
+
+
+
+                Figure 15
+
+
+
+     NOTE      ref.8 in figure above
+
+
+
+
+224/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                  Technical Information   17
+                                              Connection J1 Remote I/O Interconnections
+
+
+        Controller-to-Pump Connection
+                A five-meter long cable is provided to connect the controller to the
+                pump. The following figures show the pump connector configuration
+                where pins:
+                A-F = upper bearing sensor
+                B-C-D = 3-phase output to pump motor
+                E = ground
+                A-G =pump body temperature sensor
+
+
+
+
+                Figure 16    Pump connector
+
+                The pump cable can be extended by means of an optional extension
+                cable (see Orderable Parts table).
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                             225/288
+17   Technical Information
+     Connection J1 Remote I/O Interconnections
+
+          Input / Output Electrical Specifications
+
+
+
+
+                Figure 17   Input / Output electrical specifications
+
+
+
+                PURGE/VENT VALVES: the Turbo-V 1001TwisTorr Pumping System
+                can integrate the Purge and Vent valves. The two valves are Normally
+                Closed (N.C.) so if a power fail occurs, the valves will remain closed.
+                The valves operating mode can be set by serial communication with
+                WIN 125 or using front panel interface (see following diagram for
+                details). The valve operating mode can be changed only with the
+                pump in STOP status.
+
+
+
+
+226/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                     Technical Information   17
+                                                 Connection J1 Remote I/O Interconnections
+
+
+
+
+                  NOTE:
+       there are some limitations.
+        See the description in the
+       body of the text for details.
+
+
+
+
+                         Figure 18
+
+
+
+         Auto Pump Speed Mode – with Purge/Vent Device
+         Accessory Only
+                         If WIN 125 = 2 the both the valves are managed by an automatic
+                         procedure.
+                         When activated, this procedure guarantees that the pump is slowed
+                         down properly modulating in automated way the Vent Valve (see the
+                         figure above for details).
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                227/288
+17   Technical Information
+     Connection J1 Remote I/O Interconnections
+
+
+
+ CAUTION!       The vent could damage the pump. Please, use the “Auto Pump Speed” mode or
+                refer to Agilent personnel.
+
+
+
+
+          On Command Mode – with Purge/Vent Device
+          Accessory Only
+                If WIN 125 = 1 the vent valves can be operated manually via serial
+                communication (or by front panel interface) with the followings
+                limitations.
+                Setting WIN 122 = 1 the Vent Valve opens only if the pump is in STOP
+                status: if the pump is in STARTING, NORMAL or AUTOTUNING
+                status the valve stays close; if the pump is in BRAKING status, the
+                Vent Valve performs a Controlled Venting.
+                Setting WIN 122 = 0 the Vent Valve is closed independently from the
+                pump status.
+
+
+
+          Autotime Mode – with Purge/Vent Device
+          Accessory Only
+                The default setting for vent operating mode is “Autotime” (Win 125 = 0).If
+                WIN 125 = 0 the Vent and Purge Valves are opened as a function of time (see
+                the figure below for details). The timings are configurable through WIN 126
+                (Vent Valve Opening Delay) and WIN 147 (Vent Valve Opening Time).
+
+
+
+
+228/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                               Technical Information   17
+                                           Connection J1 Remote I/O Interconnections
+
+
+
+
+                Figure 19   Vent and Purge Valves diagram for “ Autotime” mode
+
+
+
+        Controlled Venting
+                In the following conditions the Vent Valve performs a Controlled Venting.
+
+                If WIN 125 = 1 (On Command mode), WIN 122 = 1 and the pump is in
+                BRAKING status;
+
+                If WIN 125 = 2 (Auto Pump Speed mode) and the pump is in
+                BRAKING status.
+                During a Controlled Venting procedure the Vent Valve opening time
+                is modulated so that the pump deceleration quickness is maintained
+                in the range between 3 and 5 Hz/s. The timing is adjusted every 10
+                seconds.
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                          229/288
+17   Technical Information
+     Serial Communication (J2 Connector)
+
+          Stop Speed Reading
+                This function allows the user to read the pump rotational frequency
+                (window 232) even after a stop command, during the braking. The
+                function can be activated/deactivated by serial communication
+                (WIN 167). If activated, all the related functions (set point output,
+                programmable analog output – if related to the frequency, …) will
+                follow the frequency reading.
+                The T-Plus Software (optional) allows the operator to set all the programmable
+     NOTE       feature.
+
+
+Serial Communication (J2 Connector)
+
+
+
+
+                Figure 20
+
+                This is a 9 pin Female D-type serial input/output connector to control
+                via an RS 232 or RS 485 connection the Turbo-1001 Pumping System.
+                Tab. 4
+                PIN N.           SIGNAL
+                1                +5Vdc OUT (100mA max)
+                2                TX (RS232)
+                3                RX (RS232)
+                4                Not connected
+                5                GND
+                6                A + (RS485)
+                7                Not connected
+                8                B – (RS485)
+                9                Not connected
+
+
+230/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                 Technical Information       17
+                     Procedure to Connect the Serial and I/O Ports to an External Cable
+
+                A serial communication kit with a serial cable and the
+                T-Plus software (p/n 969-9883) is available (optional).
+                SERIAL CABLE INSTALLATION The supplied serial cable must be
+                installed when the Turbo-V 1001 Pumping System has to be
+                controlled by means of a remote personal computer.
+                The cable is installed fixing the 9 pin D-type Male connector into the
+                J2 serial connector.
+
+
+
+Procedure to Connect the Serial and I/O Ports to an
+External Cable
+                The following picture shows the right procedure to connect a cable to
+                the I/O or to the serial port connector.
+                A shielded cable of 30 m maximum length has to be utilized for both
+                serial and I/O port connections.
+
+    NOTE        Take care to have a good contact (soldered) between the metallic connector
+                case and the external shield of the cable. Moreover, this connection has to be
+                assured at least on the controller side.
+
+
+                In this way, you will be sure to reduce the influence of the external
+                noise and to accomplish the EMC requests. In picture d is showed the
+                cable assembled.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                231/288
+17   Technical Information
+     RS 232/RS 485 Communication Description
+
+
+
+
+               Figure 21
+
+
+RS 232/RS 485 Communication Description
+               Both the RS 232 and the RS 485 interfaces are available on the
+               connector J2.The communication protocol is the same (see the
+               structure below), but only the RS 485 manages the address field.
+               Therefore to enable the RS 485 is necessary to select the type of
+               communication as well as the device address by means of the T-Plus
+               software.
+
+
+
+
+232/288                         Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                   Technical Information              17
+                                                 RS 232/RS 485 Communication Description
+
+
+        Communication Format
+                    8 data bit
+                    no parity
+                    1 stop bit
+                    baud rate: 600 / 1200 / 2400 / 4800 / 9600 / 19200 / 38400
+                     programmable (default setting: 9600)
+
+
+
+        Communication Protocol
+                The communication protocol is a MASTER/SLAVE type where:
+                    Host = MASTER
+                    Controller = SLAVE
+                The communication is performed in the following way:
+                    the host (MASTER) send a message + CRC to the controller
+                     (SLAVE);
+                    the controller answer with an answer + CRC to the host.
+                The MESSAGE is a string with the following format:
+                <STX>+<ADDR>+<WIN>+<COM>+<DATA>+<ETX>+<CRC>
+                where:
+
+    NOTE        When a data is indicated between two quotes (‘...’) it means that the indicated data is
+                the corresponding ASCII character.
+
+
+                    <STX> (Start of transmission) = 0x02
+                    <ADDR> (Unit address) = 0x80 (for RS 232)
+                     <ADDR> (Unit address) = 0x80 + device number (0 to 31) (for RS
+                     485)
+                    <WIN> (Window) = a string of 3 numeric character indicating the
+                     window number (from ‘000’ to ‘999’); for the meaning of each
+                     window see the relevant paragraph.
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                         233/288
+17   Technical Information
+     RS 232/RS 485 Communication Description
+
+                   <COM> (Command) = 0x30 to read the window, 0x31 to write into
+                    the window
+                   <DATA> = an alphanumeric ASCII string with the data to be
+                    written into the window. In case of a reading command this field
+                    is not present.
+                    The field length is variable according to the data type as per the
+                    following table:
+
+               Tab. 5
+               Data Type                        Field Length          Valid
+                                                                      Characters
+               Logic (L)                        1                     ‘0’ = OFF
+                                                                      ‘1’ = ON
+               Numeric (N)                      6                     ‘-‘, ‘.’, ‘0’ . . . ‘9’ right
+                                                                      justified with ‘0’
+               Alphanumeric (A)                 10                    from blank to ‘_’ (ASCII)
+
+                   <ETX> (End of transmission) = 0x03
+                   <CRC> = XOR of all characters subsequent to <STX> and
+                    including the <ETX> terminator. The value is hexadecimal coded
+                    and indicated by two ASCII character.
+               The addressed SLAVE will respond with an ANSWER whose structure
+               depends from the MESSAGE type.
+               When the MESSAGE is a reading command, the SLAVE will respond
+               transmitting a string with the same structure of the MESSAGE.
+
+     NOTE      Using the RS 485 interface, the message structure remains identical to the one used for
+               the RS 232 interface, the only difference being that the value assigned to the ADDRESS
+               <ADDR>.
+
+
+
+
+234/288                             Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                Technical Information           17
+                                              RS 232/RS 485 Communication Description
+
+
+                The controller can answer with the following response types:
+
+                Tab. 6
+                Type         Length       Value         Description
+                Logic        1 byte       -             After a read instruction of a logic window
+                                                        After a read instruction of a numeric
+                Numeric      6 bytes      -
+                                                        window
+                Alpha-                                  After a read instruction of an
+                             10 bytes     -
+                numeric                                 alphanumeric window
+                                                        The command execution has been
+                ACK          1 byte       (0x6)
+                                                        successfully completed
+                NACK         1 byte       (0x15)        The command execution has been failed
+                Unknown                                 The specified window in the command is
+                             1 byte       (0x32)
+                Window                                  not a valid window
+                                                        The data type specified in the command
+                Data Type
+                             1 byte       (0x33)        (Logic, Numeric or Alphanumeric) is not
+                Error
+                                                        accorded with the specified Window
+                                                        The value expressed during a write
+                Out of                    (0x34)
+                             1 byte                     command is out of the range value of the
+                Range
+                                                        specified window
+                                                        The specified window is Read Only or
+                Win                                     temporarily disabled (for example you
+                             1 byte       (0x35)
+                Disabled                                can’t write the Soft Start when the Pump
+                                                        is running)
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                   235/288
+17   Technical Information
+     Examples
+
+
+Examples
+                Command: START
+                Source: PC
+                Destination: Controller
+
+                 02    80     30    30     30    31        31    03    42    33
+                 STX   ADDR   WINDOW             WR        ON    ETX   CRC
+
+
+
+                Source: Controller
+                Destination: PC
+
+                 02    80     06      03        38    35
+                 STX   ADDR   ACK     ETX       CRC
+
+
+
+                Command: STOP
+                Source: PC
+                Destination: Controller
+
+                 02    80     30    30     30    31        30    03    42    32
+                 STX   ADDR   WINDOW             WR        OFF   ETX   CRC
+
+
+
+                Source: Controller
+                Destination: PC
+
+                 02    80     06      03        38    35
+                 STX   ADDR   ACK     ETX       CRC
+
+
+
+
+236/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                           Technical Information   17
+                                                                                       Examples
+
+
+                Command: SOFT-START (ON)
+                Source: PC
+                Destination: Controller
+
+                 02    80     31    30    30    31        31    03    42    32
+                 STX   ADDR   WINDOW            WR        ON    ETX   CRC
+
+
+
+                Source: Controller
+                Destination: PC
+
+                 02    80     06     03        38    35
+                 STX   ADDR   ACK    ETX       CRC
+
+
+
+                Command: SOFT-START (OFF)
+                Source: PC
+                Destination: Controller
+
+                 02    80     31    30    30    31        30    03    42     33
+                 STX   ADDR   WINDOW            WR        OFF   ETX   CRC
+
+
+                Source: Controller
+                Destination: PC
+
+                 02    80     06     03        38    35
+                 STX   ADDR   ACK    ETX       CRC
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                      237/288
+17   Technical Information
+     Window Meanings
+
+
+Window Meanings
+                Tab. 7
+                N.       Read/   Data      Description                      Admitted Values
+                         Write   Type
+                000      R/W     L         Start/Stop                       Start = 1
+                                           (in remote mode the window       Stop = 0
+                                           is read only)
+                001      R/W     L         Low Speed (in remote mode        0 = OFF
+                                           the window is read only)         1 = ON
+                                                                            (default = 0)
+                008      R/W     L         Serial, Remote, or Front Panel   Serial = 0
+                                           control mode                     Remote = 1
+                                                                            Front Panel = 2
+                                                                            (default = 1)
+                100      R/W     L         Soft Start                       YES = 1
+                                           (can be written only in Stop     NO = 0
+                                           condition)
+                101      R/W     N         Set Point reference quantity     0 = Frequency
+                                                                            1 = Current
+                                                                            2 = Time
+                                                                            3 = Normal
+                                                                            (default = 0)
+                102      R/W     N         Set Point threshold (expressed   (default = 720)
+                                           in Hz, mA, s, _, mbar)
+                103      R/W     N         Set Point delay: time between    0 to 999999
+                                           the pump start and the set       (default = 0)
+                                           point check starting (s).
+                104      R/W     L         Set Point Output logic           0 = high level active
+                                                                            1 = low level active
+                                                                            (default = 0)
+                105      R/W     N         Set point hysteresis             0 to 100
+                                           (in % of threshold)              (default = 2)
+
+
+
+
+238/288                              Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                       Technical Information      17
+                                                                         Window Meanings
+
+                N.    Read/     Data    Description                         Admitted Values
+                      Write     Type
+                106   R/W       L       Cooling agent                       0 = AIR
+                                                                            1 = WATER
+                                                                            (default = 0)
+                107   R/W       L       Active Stop                         0 = NO
+                                        (can be written only in Stop        1 = YES
+                                        condition)                          (default = 0)
+                108   R/W       N       Baud rate                           600 = 0
+                                                                            1200 = 1
+                                                                            2400 = 2
+                                                                            4800 = 3
+                                                                            9600 = 4
+                                                                            19200 = 5
+                                                                            38400 = 6
+                                                                            (default = 4)
+                110   R/W       L       Interlock mode (if configured       Impulse = 0
+                                        as Impluse the Interlock signal     Continuous = 1
+                                        acts only at the start)             (default = 1)
+                111   R/W       L       Analog output link: the output      0 = frequency
+                                        voltage can be related to           1 = power
+                                        different quantities.               2 = bearing temp
+                                                                            (default = 0)
+                117   R/W       N       Low speed setting [Hz]              350 to WIN 121
+                                                                            (default = 750)
+                120   R/W       N       High speed setting [Hz]             350 to WIN 121
+                                                                            (default = 825)
+                121   R/W       N       Maximum rotational frequency        350 to 825
+                                        in Hz (can be written only in       (default = 825)
+                                        Stop condition)
+                122   R/W       L       Set Vent Valve status               1 = open
+                                                                            0 = close
+                                                                            (default = 0)
+                125   R/W       L       Valves operating mode               0 = On Command
+                                                                            1 = Auto Pump Spedd
+                                                                            2 = Autotime
+                                                                            (default = 2)
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                      239/288
+17   Technical Information
+     Window Meanings
+
+                N.    Read/   Data      Description                     Admitted Values
+                      Write   Type
+                126   R/W     N         Vent valve opening delay        0 to 65535
+                                        expressed in 0.2 sec            Corresponding to 0 to
+                                                                        13107 sec
+                                                                        (Default = 15)
+                143   R/W     N         External Fan Configuration      0 = Always ON
+                                                                        1 = Automatic
+                                                                        2 = Serial
+                                                                        (default = 2)
+                144   R/W     L         External Fan activation         0 = OFF
+                                                                        1 = ON
+                                                                        (default = 0)
+                145   R/W     L         Purge Valve open/close (N.C.)   0 = close
+                                                                        1 = open
+                                                                        (Default =1)
+                147   R/W     N         Vent Valve opening (Time        0 to 65535 bit
+                                        expressed in 0.2 s)             0 = infinite
+                                                                        min 0.2 s,
+                                                                        Max 13107 s
+                                                                        (default = 0)
+
+
+                155   R       N         Power Limit Applied expressed
+                                        in W
+                157   R/W     L         Gas Load Type                   0 = Ar
+                                                                        1 = N2
+                                                                        (default = 0)
+
+
+
+
+240/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                      Technical Information      17
+                                                                        Window Meanings
+
+                N.    Read/     Data    Description                        Admitted Values
+                      Write     Type
+                167   R/W       L       Stop Speed Reading (when           0 = No
+                                        active, the pump rotation          1 = Yes
+                                        speed is measured also in          (default = 1)
+                                        Braking status)
+                200   R         N       Pump
+                                        current expressed in mA dc
+                201   R         N       3 phase voltage expressed in
+                                        Vrms
+                202   R         N       Output power expressed in W
+                203   R         N       Driving frequency expressed
+                                        in Hz
+                204   R         N       Pump bearing temperature
+                                        expressed
+                                        in °C
+                205   R         N       System status                      Stop = 0
+                                                                           Waiting intlk = 1
+                                                                           Ramp-Up = 2
+                                                                           Auto-tuning = 3
+                                                                           Braking = 4
+                                                                           Normal = 5
+                                                                           Fail = 6
+                206   R         N       Error code                         Bit description: see the
+                                                                           following figure
+
+
+
+                211   R         N       Controller Internal temperature
+                                        in °C
+                222   R         N       Body pump temperature in °C
+                232   R         N       Rotational frequency in Hz
+                300   R         N       Cycle time in minutes (zeroed      0 to 999999
+                                        by the reset command)
+                301   R         N       Cycle number (zeroed by the        0 to 999999
+                                        reset command)
+                302   R         N       Pump life in hours (zeroed by      0 to 999999
+                                        the reset command)
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                   241/288
+17   Technical Information
+     Window Meanings
+
+                N.    Read/      Data      Description                 Admitted Values
+                      Write      Type
+                310
+                to    Reserved
+                399   to
+                      Agilent
+                      service
+                400   R          A         CRC EPROM (QE)              QE8XXXX
+                                                                       (where “XXXX” are
+                                                                       variable)
+                402   R          A         CRC Param. (PA)             PA8XXXX
+                                                                       (where “XXXX” are
+                                                                       variables)
+                404   R          A         CRC parameter structure     XXXX
+                406   R          A         Program Listing code &      XXXX
+                                           revision
+                407   R          A         Parameter Listing code &    XXXX
+                                           revision
+                500
+                to    Reserved
+                502   to
+                      Agilent
+                      service
+                503   R/W        N         RS 485 address              0 to 31
+                                                                       (default = 0)
+                504   R/W        L         Serial type selection       0 = RS 232
+                                                                       1 = RS 485
+                                                                       (default = 0)
+
+
+
+
+242/288                              Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                     Technical Information     17
+                                                                       Window Meanings
+
+
+
+
+                                         8   7   6   5   4   3   2   1    0
+
+                               CABLE MEAS.
+
+                                 TOO HIGH LOAD                           NO CONNECTION
+
+                                     SHORT CIRCUIT                   PUMP OVERTEMP.
+                                                                     (T-bearing > 60 °C)
+
+                                         OVERVOLTAGE             CONTROLL. OVERTEMP.
+                                                                 (T > 65 °C)
+
+                                             OUTPUT FAIL      Vdc UNDERVOLTAGE
+                                                             (V supply < 81 Vdc)
+
+
+                Figure 22   Window N. 206 Bit Description
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                   243/288
+17   Technical Information
+     Window Meanings
+
+
+
+
+          Soft Start
+                “Soft Start” mode is provided to start the pump after a protracted
+                stop of the Turbo 1001 Pump. This allows a better grease distribution
+                in the bearings.
+                The “Soft Start” mode is disabled by default. The “Soft Start” mode
+                can be activated by a suitable software, by Remote I/O or by Front
+                Panel command (see the paragraphs “INTERCONNECTIONS” and “RS
+                232/485 COMMUNICATION DESCRIPTION”). “Soft Start” frequency
+                steps are the followings: 150 Hz, 250 Hz, 350 Hz, 450 Hz, 550 Hz and
+                650 Hz. The pump remains at each step for a period of 300 s. A fail
+                condition occurs if the pump is not able to properly spin up the
+                driving frequency (Too High Load Error).
+
+
+
+
+244/288                         Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                             Technical Information   17
+                                                               Window Meanings
+
+
+        Agilent T-Plus
+                Agilent T-plus (Turbo Pumps Linked User Software) is the
+                communication, control and monitoring software for Agilent Turbo
+                molecular Pumps and all other Agilent products featuring the Agilent
+                Window Serial Protocol. With T-plus, you can simultaneously drive
+                and control one or more Turbo Pumps, connected to a PC through an
+                RS232 or an RS485 serial communication and by an easy User
+                Interface it is possible to obtain totally control of the Vacuum Pumps.
+                Automatic identification of the connected Pumps, description of each
+                command always on screen, and User Interface adaptable to the
+                Pump Status are only some of the features developed to make the
+                approach to pump settings easy and to reduce the number of steps
+                during pump configuration. Moreover, special care is given to the GUI
+                (Graphical User Interface), to reproduce the environment of well-
+                known User Interfaces (such as Microsoft® Windows® applications),
+                to obtain a real User Friendly tool, and to reduce the user learning
+                time. T-plus software features several options like Data Logging,
+                Chart Representation and Network Configuration, to help you
+                configure your Vacuum devices quickly, and to check your vacuum
+                system status at any time. Exhaustive online Help is also included,
+                providing the user with a complete, easy to learn system, tailored to
+                customer requirements.
+
+
+
+
+                Figure 23
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                        245/288
+17   Technical Information
+     Window Meanings
+
+          Embedded Data Logger Manager (New Function)
+                This controller integrates the data logger function, it enables the
+                controller to manage some log files with a big amount of data. The
+                user can download this data using the T-plus software.
+
+
+
+
+                Figure 24
+
+                The EDLM Interface will be as shown below:
+
+
+
+
+                Figure 25
+
+246/288                         Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                              Technical Information   17
+                                                                Window Meanings
+
+                In this screen the user would:
+                1   Select the pump data download file. This file could be a new or
+                    an existing file. When any file is selected Start Download button
+                    will be enabled. If an existing file is selected Start Download and
+                    Show Graph buttons will be enabled.
+                2   Select the pump data download period and appropriate sample
+                    time. The max data download period is limited to 16 hours– edit
+                    field having default value 16 and fixed sample time of 10 minutes
+                    only.
+                3   Initiate download by pressing the Start Download button which
+                    would be enabled after selecting a file. When the user clicks on
+                    this button the input data would be validated and the download
+                    would begin. During the download process the Start Download
+                    button would read “Abort Downloading”. This could be used to
+                    abort the data download midway.
+                4   Click the Graph Button – This button would be enabled when the
+                    file download is complete and/or the destination file specified is
+                    present on the computer. Clicking this button would invoke the
+                    Graph control and the trend for the entire data for that period
+                    would be plotted in the Graph.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                         247/288
+17   Technical Information
+     Window Meanings
+
+
+          Drive the External Fan
+                There are three different ways to drive the external Fan selectable
+                via Front Panel and via RS232/RS485:
+                1    Always ON
+                     Setting WIN 143 = 0 the fan remains always ON (the value in
+                     WIN144 is not considered)
+                2    Automatic Setting WIN 143 = 1 the external fan is always ON
+                     during the Ramp-up status. In the others status the fan behavior
+                     depends only on WIN 144 value: WIN 144 = 1 external fan ON;
+                     WIN 144 = 0 external fan OFF That means that WIN 144
+                     determines the Fan status when the pump reaches the “normal”
+                     status.
+                3    Serial With WIN 144 = 2 (default value) the external fan is
+                     configured in serial mode, in this condition the fan behavior
+                     depends only on WIN 144 value) Setting WIN 143 = 2: WIN 144 =
+                     1 external fan ON; WIN 144 = 0 external fan OFF. The WIN 143
+                     default value is 0.
+
+
+
+
+248/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                Technical Information         17
+                           Power Derating Function during High Temperature Condition
+
+
+
+Power Derating Function during High Temperature
+Condition
+                During operation the controller limits the power provided to the
+                motor according to:
+                   Gas type load (selectable with WIN 157: see the "Window
+                    Meanings" paragraph)
+                   Cooling mode (selectable with WIN 106: see the "Window
+                    Meanings" paragraph)
+                   Body temperature (can be read by WIN 222).
+                   Electronics temperature (can be read by WIN 211).
+
+
+
+ WARNING!       The user must set the gas type load (WIN 157) and Cooling mode (WIN 106) before
+                starting the pump.
+
+
+
+
+                The applied power limit is readable by serial line (WIN 155).
+                If the pump body temperature exceed 55 °C or the pump bearing
+                temperature exceed 60 °C or the Controller temperature exceed
+                60 °C, the controller goes in status 6 (Fail).
+                The controller compensates, according to maximum available power,
+                the power loss estimated due to the length of the pump cable.
+                In order to avoid wrong power compensations it is fundamental that
+                the user sets the correct pump cable length (by considering the unit
+                cable and possible extension cables) by means of the user interface or
+                with WIN 148.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                 249/288
+17   Technical Information
+     How to Use by Front Panel
+
+
+How to Use by Front Panel
+
+
+          Startup
+                Plug the controller power cable into a suitable power source.
+                The display lights up for approx. 2 seconds and shows:
+
+                  A    G   I     L    E    N   T            V   A   C    U   U   M
+                           T     E    C    H   N    O   L   O   G   I    E   S
+                                 T    U    R   B    O           7   5    0
+                           A     U    T    O   T    E   S   T       O    K
+
+
+
+                After 4 seconds, the display shows the following screen page:
+
+
+
+
+          Main Screen:
+                STATUS indicates the operating regime of the pump: Stop, Interlock,
+                Starting, Autotune, Braking, Normal, Fail.
+                XXXHz is the current rotational frequency of the pump.
+                MODE = Front, Remote, Serial.
+                NOTE: If the pump is not connected and in case of the other fails, the
+                display will be as follows:
+
+
+
+
+250/288                              Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                  Technical Information      17
+                                                               How to Use by Front Panel
+
+
+        Pump Start, Stop and Reset Fail
+                Press once the START/STOP button for the START command and
+                again for the STOP command. In the case of controller’s failure, press
+                once to reset the fail condition.
+
+     NOTE       The front panel START/STOP function is available only if the controller is set to
+                “FRONT mode”. If it is set to “REMOTE mode”, when the key is pressed an error
+                message is shown indicating “COMMAND LOCKED IN REMOTE”, if it is set to
+                “SERIAL” mode, the “COMMAND LOCKED IN SERIAL MODE” error message is
+                displayed.The error message is displayed for approx. 1 second before moving to
+                the previous parameter. The “Reset Fail” function is always available regardless
+                of controller mode.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                251/288
+17   Technical Information
+     How to Use by Front Panel
+
+          Counters / Controller Data:
+                Pressing once the COUNTERS pushbutton, the following information
+                is displayed:
+                                CYCLE XXXX Number of start/stop cycles
+                                TIME XXXXXm Time of last cycle (minutes)
+                                P.LIFE XXXXXX total operating time (hours) of the
+                                 pump
+
+
+
+
+                Pressing twice the pushbutton, the following information is displayed
+                                MN Model Number of the controller
+                                SN Serial Number
+
+
+
+
+                Pressing a third time, the following message is displayed:
+                                FW Firmware version
+                                PA Parameter Listing version
+
+                  S   T   A      T    U    S                       X   X   X   H   z
+                                 C    O    N   T   R   O   L   L   E   R
+                      F   W                X   X   X   X   X   X   X   X   X   X
+                      P   A                Y   Y   Y   Y   Y   Y   Y   Y   Y   Y
+
+
+
+                On pressing the key again, the display goes back to main screen.
+
+
+
+252/288                              Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                           Technical Information          17
+                                                                        How to Use by Front Panel
+
+
+                Measures
+                Pressing once on the MEASURES pushbutton, the information is
+                displayed:
+                                       P=XXX W is the power absorbed by to the pump.
+                                       T=XX °C is the pump bearing temperature.
+                                       XXXX Hz is the rotational frequency of the pump.
+                                       I=X.XXA is the current absorbed by the pump.
+
+
+
+                    S   T       A       T       U   S                                    X   X   X    H     z
+                                                M   E   A   S       U    R       E       S
+                        P       =       X       X   X   W                T       =       X   X   °    C
+                        I       =       X       .   X   X   A
+
+
+                On pressing the key again, the display goes back to main screen
+
+
+               HS           S       T       A   T   U   S                    X       X   X   H   z        PD
+               LS
+                                                                                                          Purge
+                                                    M   O   D   E                        .                Vent
+
+
+                If not otherwise specified the following status are showed with a
+                solid symbol (no blinking request). Not showed in programming.
+                             PD Power Derating (blinking warning)
+                             Purge when active shows the status of the PURGE
+                              VALVE OPEN
+                             Vent when active (blinking) the VENT VALVE is OPEN
+                              or a CONTROLLER VENT BRAKING is active
+                             HS Shows the high speed selection: the controller is at
+                              HIGH SPEED.
+                             LS Shows the low speed selection: the controller is at
+                              LOW SPEED
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                             253/288
+17   Technical Information
+     Programming
+
+
+Programming
+
+                To access the configuration menu, press the COUNTERS +
+                MEASURES buttons at the same time for at least 2 sec.
+
+
+
+                                                  INCREASE
+                                                  Start/Stop
+
+
+
+
+                                 PREVIOUS                             NEXT
+                                  Counters                           Measures
+
+
+
+                                                  DECREASE
+                                                  Low speed
+
+
+
+                        Figure 26
+
+                In programming mode, the meaning of the 4 buttons changes as
+                follows:
+                                  COUNTERS/LOW SPEEDspeed become “INCREASE
+                                   and DECREASE”; it’s possible to select the next or
+                                   previous value of a parameter (in the case of
+                                   compulsory parameters) or to increase/decrease the
+                                   individual digit of a parameter (in the case of numeric
+                                   parameters).
+                                  The “MEASURES and COUNTERS” buttons become
+                                   “NEXT and PREVIOUS”; it’s possible to select the next
+                                   parameter (or next digit of a numeric parameter) or
+                                   previous parameter.
+
+
+
+
+254/288                              Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                               Technical Information   17
+                                                                      Programming
+
+                Swit from one parameter to the next using the
+                “INCREASE/DECREASE” key. To Select the desired value use NEXT
+                button. To exit from the current sub-menu use the PREVIOUS button.
+                “Change OK” indicates confirmation of any changes made to the
+                specific parameter.
+
+                 S    T   A       T   U   S                          X    X   X    H    z
+                      H   I       G   H       S    P   E   E    D         A   D    J
+                 X    X   X       X       T   O        Y   Y    Y    Y        H    z
+                                  C   H   A   N    G   E        O    K
+
+
+                If the changes cannot be accepted by the controller, the “Out of
+                limits” error message is displayed for approx. 1 second; the changes
+                are cancelled and the previous parameter value is displayed.
+
+                 S    T   A       T   U   S                          X    X   X    H    z
+                      H       I   G   H       S    P   E   E    D         A   D    J
+                 X    X   X       X       T   O        Y   Y    Y    Y        H    z
+                      O   U       T       O   F        L   I    M    I    T   S
+
+
+                Switching from a parameter to the previous parameter (using the
+                “PREVIOUS” key) indicates the intention to abort any changes made
+                to the specific parameter. Abort is indicated by the caption “Change
+                aborted” that is displayed for approx. 1 second before moving to the
+                previous parameter.
+
+
+
+                 S    T   A       T   U   S                          X    X   X    H    z
+                      H   I       G   H       S    P   E   E    D         A   D    J
+                 X    X   X       X       T   O        Y   Y    Y    Y        H    z
+                      C   H       A   N   G   E        A   B    O    R    T   E    D
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                          255/288
+17   Technical Information
+     Programming
+
+                The configuration limits are showed in a sliding line reporting a
+                minimum and maximum value like the following example:
+                “XXXX TO YYYY ZZZ”.
+
+
+                  S   T      A       T     U    S                            X   X    X   H    z
+                      H          I   G     H         S    P    E   E    D        A    D   J
+                  X   X      X       X          T    O         Y   Y    Y    Y        H   z
+                                                X    X    X    X   H    z
+
+
+                The configuration menu has a tree-like structure and permits
+                “circular” navigation; on reaching the end of a branch, the user is
+                returned automatically to the start of this. Navigation can proceed in
+                a forwards (NEXT button) or backwards (PREVIOUS button)
+                direction It is possible to enter a sub-branch by pressing the
+                “INCREASE” button.
+                 If no buttons are pressed for more than 1 minute, the controller
+                automatically quits the programming menu canceling any
+                modifications made to the current parameter.
+                The figure below shows the first level of the configuration menu and
+                the links to the respective second level menus (indicated below).
+                After entering in any menu, the blinking value displayed is the value
+                currently enabled.
+
+
+
+
+256/288                                  Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                    Technical Information   17
+                                                                           Programming
+
+
+
+
+        Configuration Menu
+
+           MODE                                                     FRONT
+
+
+                                                                    SERIAL
+
+
+                                                                    REMOTE
+
+
+       PUMP SETTING                 HIGH SPEED
+                                       ADJ
+                                                  F2
+
+
+
+
+          INPUT /                                      START MODE
+          OUTPUT
+                                                                       F3
+
+
+
+         SETPOINT                     TYPE
+
+                                                  F4
+
+
+
+           SERIAL                                      BAUD RATE
+
+
+                                                                       F5
+
+
+
+
+                        Figure 27
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               257/288
+17   Technical Information
+     Programming
+
+                MODE: selections (see Flow 1/6) between following modes of
+                operating:
+                                FRONT: accepts commands from the front panel
+                                SERIAL: accepts commands from the serial interface
+                                REMOTE: accepts commands from the remote input
+                                 connector
+                The first selection displayed is the value currently enabled.
+                The selected choice is highlited with a special character on the right
+                side (→).
+                The selected item shall be showed blinking as first entry in the
+                circular menu.
+
+
+                 S    T      A   T   U    S                            X   X    X   H    z
+                             
+                       C     O   N   F    I    G    U    R   A    T    I   O    N
+                 →    M      O   D   E
+                      P      U   M   P         S    E    T   T    I    N   G
+
+
+
+
+258/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                           Technical Information   17
+                                                                  Programming
+
+
+        PUMP SETTING Menu
+
+
+
+
+                        Figure 28
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                      259/288
+17   Technical Information
+     Programming
+
+                This menu contains all the parameters that have a direct effect on
+                driving of the pump.
+                HIGH SPEED ADJ: Sets the rotational speed of the pump when the
+                low-speed function is not active, expressed either in Hz or KRPM.
+                LOW SPEED ADJ: Sets the rotational speed of the pump when the
+                low-speed function is active, expressed either in Hz or in KRPM.
+                SOFT START: enables (YES) or disables (NO) the soft start function.
+                This parameter is visible only if the controller is configured in
+                FRONT mode.
+                EXTERNAL FAN: it’s possible to operate the external cooling fan
+                selecting between following options:
+                                ALWAYS ON: the cooling fan is always ON
+                                OFF_LIMPOWER: 10 seconds after the pump has
+                                 reached NORMAL status, the fan is switched off and
+                                 the driving power of the pump is reduced to XXX.
+                                SERIAL: the cooling fan is controlled directly via the
+                                 serial port.
+                VENT VALVE MODE: it’s possible to operate the optional vent valve
+                selecting between following mode of operation:
+                                AUTO TIME: the valve is controlled by the controller
+                                SERIAL: the valve is controlled by the serial port.
+                                AUTO PUMP SPEED: the valve is controlled by the
+                                 controller its king into account the pump’s
+                                 deceleration.
+                VENT VALVE DELAY: Sets the delay, expressed in seconds, between
+                stopping of the pump and opening of the vent valve.
+                VENT OPEN TIME: sets the time, expressed in seconds, for the vent
+                vale to stay in open condition. Enter 0 if the valve has to stay open
+                until the next start.
+                LOAD GAS TYPE: selects the type of gas used in the process.
+                Therefore, the controller limits the power supplied to the pump
+                according to this setting.
+
+
+
+260/288                            Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                           Technical Information   17
+                                                                  Programming
+
+        WATER COOLING: indicates whether the pump is cooled with water or not.
+        The controller limits the power supplied to the pump according to this
+        setting.
+        ACTIVE STOP: enables (YES) or disables (NO) active braking.
+        STOP SPEED READING: enables (YES) or disables (NO) the reading
+        function of the pump rotational frequency during braking, after stop
+        command.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                       261/288
+17   Technical Information
+     INPUT/OUTPUT Menu
+
+
+INPUT/OUTPUT Menu
+
+
+
+                             IMPUT / OPTPUT            START MODE                 START - INTERLOCK
+
+
+                                              F. 1
+                                                                                  START/STOP LEVEL
+
+
+
+                                                                                  START/STOP EDGE
+
+
+
+
+                                                     INTERLOCK TYPE                  CONTINUOUS
+
+
+
+                                                                                     IMPULSIVE
+
+
+
+
+                                                     ANALOG OUT TYPE                 FREQUENCY
+
+
+
+                                                                                       POWER
+
+
+
+
+                                                                                      TEMPERATURE
+
+
+
+
+                                                      SPEED DISPLAY                      KRPM
+
+
+
+                                                                                          Hz
+
+
+
+
+                                                      LCD CONTRAST                         0
+
+
+
+
+                                                                                           9
+
+
+
+
+                                                                       Flow 3/6
+
+
+
+
+                       Figure 29
+
+
+
+262/288                               Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                            Technical Information   17
+                                                           INPUT/OUTPUT Menu
+
+                This menu contains parameters that determine the operating mode of
+                the inputs and outputs of the controller.
+                START MODE: it distinguish three ways to start/stop the pump
+                according to following description:
+                -   START INTERLOCK, the controller checks for interlock mode;
+                    see interlock type description for further details.
+                -   START/STOP LEVEL; if selected, close the START/STOP contact
+                    on I/O connector (1-9 and 2-15) to start the pump and close the
+                    INTERLOCK signal (3-9 and 4-15) to stop the pump.
+
+
+                INTERLOCK TYPE: selects the interlock mode on I/O connector:
+                -   CONTINOUS: if enabled, the unit wants the contact on I/O
+                    connector to be closed; should be the contact open, error
+                    condition WAITING FOR INTERLOCK is displayed;
+                -   IMPULSIVE: if enabled, the unit wants the interlock to be closed
+                    only at start command; should be removed the contact after start
+                    command or during normal operation, no error is displayed.
+                ANALOG OUTPUT TYPE: referred to the ANALOG OUTPUT SIGNAL
+                on I/O connector; it can be related to one of following quantity:
+                -   FREQUENCY, default value
+                -   POWER
+                -   TEMPERATURE
+                SPEED DISPLAY: the rotational speed can be displayed in
+                -   KRPM
+                -   Hz
+                LCD CONTRAST, increases/decreases the contrast on LCD display.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                        263/288
+17   Technical Information
+     SETPOINT Submenu
+
+
+SETPOINT Submenu
+
+
+
+
+                        Figure 30
+
+264/288                             Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                              Technical Information   17
+                                                                SETPOINT Submenu
+
+                This submenu contains the settings related to the set point contact
+                output with relay.
+                TYPE: the output signal can be setted referring on one of following
+                values:
+                -   FREQUENCY, default value
+                -   POWER drawn by the pump
+                -   TIME
+                -   NORMAL, when the pump has reaches Normal Operation mode
+                SET VALUE, after selection of the analog output type, select the
+                desired value from 0000 to 9999
+                HYSTERESYS, if a Hysteresys value is required, it can be adjusted
+                between 00 and 99
+                MASK TIME Selectable between 00:00:00 and 99:99:99
+                OUTPUT LOGIC The contact logic is configured depending on
+                Activation Type parameter status.
+                -   If Activation Type is “high level active” the contact is configured
+                    as “normally open” (it will close the circuit when activated);
+                -   if Activation Type is “low level active” the contact is configured
+                    as or “normally closed” (it will open the circuit when activated).
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                         265/288
+17   Technical Information
+     SERIAL Menu
+
+
+SERIAL Menu
+                This menu contains the settings for management of the RS232/485
+                serial line.
+
+
+
+
+                        Figure 31
+
+
+266/288                             Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                             Technical Information   17
+                                                                    SERIAL Menu
+
+                              BAUD RATE: permits selection of the communication
+                               speed selecting this from 600, 1200, 4800, 9600, 38400
+                               baud
+                              SERIAL MODE: permits setting of the type of interface
+                               to RS232 (point to point) or RS485 (multidrop)
+                              SERIAL ADDRESS: sets the address of the node in the
+                               case of the RS485 interface. This parameter is not
+                               visible if the RS232 is selected.
+                  To exit the menu press COUNTERS and MEASURE pushbuttons for
+                  at least 2 sec.
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                        267/288
+17   Technical Information
+     Examples
+
+
+Examples
+
+                 S        T     A       T   U   S                            X   X    X   H    z
+                           C    O       N   F   I    G       U   R   A   T   I   O    N
+                 →        M     O       D   E
+                          P     U       M   P        S       E   T   T   I   N   G
+
+
+                NEXT button (to select MODE)
+                                       MODE
+                              FRONT
+                              REMOTE
+                              SERIAL
+
+
+                From FRONT to SERIAL
+
+                  S       T      A      T   U    S                           X    X   X    H    z
+                                                      M      O   D   E
+                 →        F         R   O   N    T
+                          R         E   M   O    T       E
+
+                DECREASE button
+
+
+                  S       T      A      T   U    S                           X    X   X    H    z
+                                                      M      O   D   E
+                          F         R   O   N    T
+                 →        R         E   M   O    T       E
+
+                DECREASE button
+
+
+
+
+268/288                                  Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                        Technical Information       17
+                                                                                    Examples
+
+
+                  S       T       A        T   U    S                          X    X   X       H    z
+                                                        M   O   D   E
+                          R           E   M    O    T   E
+                 →        S           E   R     I   A   L
+
+                NEXT button (to select SERIAL)
+
+                  S       T       A        T   U    S                          X    X   X       H    z
+                                                        M   O   D   E
+
+                                          C    H    A   N   G   E         O    K
+
+                  S       T       A        T   U    S                          X    X   X       H    z
+                                                        M   O   D   E
+                 →        S           E   R    I    A   L
+                          F           I   E    L    D   B   U   S
+
+                DECREASE button (to go on PUMP SETTING)
+
+                  S       T       A       T    U    S                          X    X   X       H    z
+                          C       O       N    F    I   G   U   R   A     T     I   O   N
+                          M       O       D    E
+                 →        P       U       M    P        S   E   T   T      I   N    G
+
+                NEXT button (to select PUMP SETTING)
+
+                  S       T       A       T    U    S                          X    X   X       H    z
+                                  P       U    M    P       S   E   T     T     I   N   G
+                 →        H        I      G    H        S   P   E   E     D         A   D       J
+                          L       O       W         S   P   E   E   D          A    D   J
+
+                                         PUMP SETTING
+                             HIGH SPEED ADJ
+                                     0000 TO 9999 Hz
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                    269/288
+17   Technical Information
+     Examples
+
+
+                NEXT button (to select HIGH SPEED ADJ)
+
+                  S    T     A    T   U   S                           X    X   X    H    z
+                       H      I   G   H        S    P   E    E    D        A   D    J
+                  X    X     X    X       T    O        Y    Y    Y   Y        H    z
+                                      X   X    X    X        H    z
+
+                INCREASE button to raise the value
+                DECREASE button to diminish the value
+                PREVIOUS button to turn to the previous menu (and abort the
+                change if any changes made)
+                NEXT button to pass to the next digit
+
+                  S    T     A    T   U   S                           X    X   X    H    z
+                       H      I   G   H        S    P   E    E    D        A   D    J
+                  X    X     X    X       T    O        Y    Y    Y   Y        H    z
+                                      X   X    X    X        H    z
+
+                INCREASE button to raise the value
+                DECREASE button to diminish the value
+                PREVIOUS button to go to the previous digit
+                NEXT button to pass to the next digit
+
+                  S    T     A    T   U   S                           X    X   X    H    z
+                       H      I   G   H        S    P   E    E    D        A   D    J
+                  X    X     X    X       T    O        Y    Y    Y   Y        H    z
+                                      X   X    X    X        H    z
+
+                INCREASE button to raise the value
+                DECREASE button to diminish the value
+                PREVIOUS button to go to the previous digit
+                NEXT button to pass to the next digit
+
+
+
+270/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                   Technical Information       17
+                                                                               Examples
+
+
+                  S    T   A    T    U    S                               X    X   X       H    z
+                       H    I   G    H         S    P      E   E     D         A   D       J
+                  X    X   X    X         T    O           Y   Y     Y    Y        H       z
+                                     X    X    X    X          H     z
+
+                INCREASE button to raise the value
+                DECREASE button to diminish the value
+                PREVIOUS button to go to the previous digit
+                NEXT button to confirm the value
+
+                  S    T   A    T    U    S                               X    X   X       H    z
+                       H    I   G    H         S    P      E   E     D         A   D       J
+
+                                C    H    A    N    G      E         O    K
+
+                  S    T   A    T    U    S                               X    X   X       H    z
+                       H    I   G    H         S    P      E   E     D         A   D       J
+                  X    X   X    X         T    O           Y   Y     Y    Y        H       z
+                                     X    X    X    X          H     z
+
+                PREVIOUS button to turn to the previous menu
+
+                  S    T   A    T    U    S                               X    X   X       H    z
+                           P    U    M    P         S      E   T     T     I   N   G
+                 →     H    I   G    H         S    P      E   E     D         A   D       J
+                       L   O    W         S    P    E      E   D          A    D   J
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               271/288
+17   Technical Information
+     Examples
+
+
+                DECREASE button (to move down)
+
+                  S       T     A      T   U    S                           X    X   X    H    z
+                                P      U   M    P         S    E   T    T    I   N   G
+                 →        H      I     G   H         S    P    E   E    D        A   D    J
+                          L     O      W        S    P    E    E   D        A    D   J
+
+                DECREASE button (to move down)
+
+                  S       T     A      T   U    S                           X    X   X    H    z
+                                P      U   M    P         S   E    T    T    I   N   G
+                          L     O      W        S    P    E   E    D        A    D   J
+                 →        S     O      F    T        S    T   A    R    T
+
+                NEXT button (to select SOFT START)
+                                      SOFT START
+                             YES
+                             NO
+                From YES to NO
+
+                  S       T     A      T   U    S                           X    X   X    H    z
+                                       S   O    F    T        S    T    A   R    T
+                 →        Y        E   S
+                          N        O
+
+                DECREASE button (to move down)
+
+                  S       T     A      T   U    S                           X    X   X    H    z
+                                       S   O    F    T        S    T    A   R    T
+                          Y        E   S
+                 →        N        O
+
+                NEXT button (to select NO)
+
+
+
+
+272/288                                 Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                         Technical Information       17
+                                                                                     Examples
+
+
+                  S       T       A        T   U   S                            X    X    X      H    z
+                                           S   O   F   T        S   T      A    R    T
+
+                                           C   H   A   N    G   E          O    K
+
+                  S       T       A        T   U   S                            X    X    X      H    z
+                                           S   O   F   T        S   T      A    R    T
+                 →        N           O
+                          Y           E    S
+
+                PREVIOUS button to go to the previous menu
+                                         VENT DELAY
+                             0000 TO 9999
+
+                  S       T       A        T   U   S                            X    X    X      H    z
+                                  
+                                           V   E   N   T        D   E      L    A    Y
+
+                                               X   X   X    X       H       z
+
+                                         VENT OPEN TIME
+                             0000 TO 9999 0= NO LIMIT
+
+                  S       T       A       T    U   S                            X    X    X      H    z
+                          V       E       N    T       O    P   E   N           T     I   M      E
+                                          0    =   N   O        L    I    M      I   T
+                                               X   X   X    X       H      z
+
+                                         SETPOINT R1 ADJ
+                             TYPE
+                                     FREQUENCY
+                                     POWER
+                                     TIME
+                                     NORMAL
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                                      273/288
+17   Technical Information
+     Examples
+
+                             SET VALUE
+                                     0000 TO 9999 XX
+                              [XX = unit of measurement relative to the type]
+                For FREQUENCY:
+
+                  S       T       A      T   U   S                           X    X   X    H    z
+                                                 S      E   T       V    A   L    U   E
+
+                                             X   X      X   X       H    z
+
+
+                For POWER:
+
+                  S       T       A      T   U   S                           X    X   X    H    z
+                                                 S      E   T       V    A   L    U   E
+
+                                             X   X      X   X       W
+
+                For TIME:
+
+                  S       T       A      T   U   S                           X    X   X    H    z
+                                                 S      E   T       V    A   L    U   E
+
+                                             X   X      X   X       s    e   c
+
+
+                                      MASK TIME
+                             00h 00m 00s
+
+                  S       T       A      T   U   S                           X    X   X    H    z
+                                                 S      E   T       V    A   L    U   E
+
+                                  X     X    h          X   X   m        X   X    s
+
+
+
+
+274/288                                  Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                  Technical Information       17
+                                                                              Examples
+
+                                        OUTPUT LOGIC
+                           _|--
+                           --|_
+
+                  S        T         A    T   U   S                      X    X   X       H    z
+                                          O   U   T   P   U   T      L   O    G    I      C
+                 →        _|--
+                            -
+                          |_
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               275/288
+17   Technical Information
+     Examples
+
+
+
+
+          Fails:
+                Flag fail:
+                NO_CONN                           1
+                PUMP_OVERTEMP                     2
+                CONTROLLER_OVERTEMP               4
+                VDC_UNDERVOLTAGE                  8
+                VDC_OVERVOLTAGE                   32
+                SHORT_CIRCUIT                     64
+                ROTOR_BLOCK                       128
+                TOO_HIGHLOAD                      128
+                PUMP_AIR                          128
+
+
+
+                   F   A     I   L       0    0       1
+                   C   H     E   C   K        C       O   N   N   E   C   T    I   O   N
+                                     T   O            P   U   M   P
+                                             M        O   D   E
+
+                   F   A     I   L       0   0        2
+                                             P        U   M   P
+                                     O   V   E        R   T   E   M   P
+                                             M        O   D   E
+
+
+                   F   A     I   L       0   0        4
+                                 C   O   N   T        R   O   L   L   E   R
+                                     O   V   E        R   T   E   M   P
+                                             M        O   D   E
+
+
+
+
+276/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                   Technical Information   17
+                                                                               Examples
+
+
+                   F   A     I   L        0   0    8
+                                              V    D       C
+                           U     N   D    E   R    V       O   L     T    A   G    E
+                                              M    O       D   E
+
+                   F   A     I   L        0   3    2
+                                              V    D       C
+                           O     V   E    R   V    O       L   T     A    G    E
+                                              M    O       D   E
+
+
+                   F   A    I    L        0    6    4
+                       S   H     O   R    T         C      I   R     C    U    I   T
+
+                                              M    O       D   E
+
+
+
+                   F   A     I   L        1    2    8
+                            R    O   T    O    R           B   L     O    C   K
+
+                                              M    O       D   E
+
+                   F   A    I    L        1    2    8
+                            T    O   O         H    I      G   H     L    O   A    D
+
+                                              M    O       D   E
+
+
+                   F   A     I   L        1   2     8
+                                     P    U   M     P          A      I   R
+
+                                              M    O       D   E
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                               277/288
+17   Technical Information
+     Examples
+
+
+                   F   A     I    L       2    5    6
+
+                       O     V    E   R   F   R     E   Q    U    E   N    C   Y
+                                              M     O   D    E
+
+                Two or more fail: each fail are showed for 2 seconds.
+                XXX: fails code
+                Y: number of fails
+
+                  N     .    Y        F   A     I   L   S         X   X    X
+
+
+
+                                              M     O   D    E
+
+
+
+
+278/288                           Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                             Technical Information   17
+                                                                         Examples
+
+
+
+
+        Auto Test Phase:
+                In stop status, it is possible to take the three phase test diagnosis
+                pressing the COUNTERS + MEASURES + LOW SPEED buttons at the
+                same time for at least 2 sec.
+                This test checks the motor windings electrical continuity and
+                symmetry. Furthermore it is able to detect a short circuit between a
+                motor phase winding and the Protection Earth.
+
+
+
+                                             START/STOP
+
+
+
+
+                            COUNTERS                          MEASURES
+
+
+
+
+                                               LOW SPEED
+
+
+
+
+                        Figure 32
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                        279/288
+17   Technical Information
+     Examples
+
+
+                  S    T     A   T   U    S                          X    X   X    H   z
+                  T    H     R   E   E        P   H    A    S    E        T   E    S   T
+                                 D    I   A   G   N    O    S    I   S
+
+
+                  S    T     A   T   U    S                          X    X   X    H   z
+                  T    H     R   E   E        P   H    A    S    E        T   E    S   T
+                                 D    I   A   G   N    O    S    I   S
+                                              P   A    S    S
+
+
+                  S    T     A   T   U    S                          X    X   X    H   z
+                  T    H     R   E   E        P   H    A    S    E        T   E    S   T
+                                 D    I   A   G   N    O    S    I   S
+                                              F   A     I   L
+
+                The test result can be PASS or FAIL. Press any button to exit and
+                return to the main screen.
+                During the test, no function is associated to the buttons.
+
+
+
+
+280/288                          Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+                                                                Technical Information   17
+                                                                     Orderable Parts
+
+
+
+
+Orderable Parts
+                Tab. 8
+
+                Description                                Part number
+                Turbo-V 1001 Rack Controller               X3501-64003
+                T-Plus communication software              969-9883
+                and serial cable kit
+                Turbo-V HT Rack Air Cooling kit            X3501-68001
+                Mains cable NEMA plug 3m long              969-9958
+                Mains cable European plug 3m long          969-9957
+                Turbo-V vent                               X3501-68002
+
+
+
+
+Turbo-V 1001 Rack Controller User Manual / 87-901-033-01                           281/288
+17   Technical Information
+     Orderable Parts
+
+
+
+
+282/288                      Turbo-V 1001 Rack Controller User Manual / 87-901-033-01
+Request for Return Form
+
+
+                                                    Sales and Service Offices
+United States                            India                                      Southeast Asia
+Agilent Technologies                     Agilent Technologies India Pvt. Ltd.       Agilent Technologies Sales Sdn Bhd
+Vacuum Products Division                 Vacuum Products Division                   Vacuum Products Division
+121 Hartwell Avenue                      G01. Prime corporate Park,                 Unit 201, Level 2 uptown 2,
+Lexington, MA 02421 - USA Tel.: +1 781   230/231, Sahar Road, Opp.                  2 Jalan SS21/37, Damansara Uptown
+861 7200                                 Blue Dart Centre,                          47400 Petaling Jaya,
+Fax: +1 781 860 5437                     Andheri (East), Mumbai – 400 099.India     Selangor, Malaysia
+Toll-Free: +1 800 882 7426               Tel: +91 22 30648287/8200                  Tel : +603 7712 6106
+                                         Fax: +91 22 30648250                       Fax: +603 6733 8121
+                                         Toll Free: 1800 113037
+Benelux                                  Italy                                      Taiwan
+Agilent Technologies Netherlands B.V.    Agilent Technologies Italia S.p.A.         Agilent Technologies Taiwan Limited
+Vacuum Products Division                 Vacuum Products Division                   Vacuum Products Division (3F)
+Herculesweg 8                            Via F.lli Varian 54                        20 Kao-Shuang Rd.,
+4338 PL Middelburg                       10040 Leini, (Torino) - Italy              Pin-Chen City, 32450
+The Netherlands                          Tel.: +39 011 997 9111                     Taoyuan Hsien , Taiwan, R.O.C.
+Tel.: +31 118 671570                     Fax: +39 011 997 9350                      Tel. +886 34959281
+Fax: +31 118 671569                      Toll-Free: 00 800 234 234 00               Toll Free: 0800 051 342
+Toll-Free: 00 800 234 234 00
+
+
+Canada                                   Japan                                      UK and Ireland
+Central coordination through:            Agilent Technologies Japan, Ltd.           Agilent Technologies UK, Ltd.
+Agilent Technologies                     Vacuum Products Division                   Vacuum Products Division
+Vacuum Products Division                 8th Floor Sumitomo Shibaura Building       6 Mead Road
+121 Hartwell Avenue                      4-16-36 Shibaura Minato-ku                 Oxford Industrial Park
+Lexington, MA 02421 - USA                Tokyo 108-0023 - Japan                     Yarnton, Oxford OX5 1QU – UK
+Tel.: +1 781 861 7200                    Tel.: +81 3 5232 1253                      Tel.: +44 (0) 1865 291570
+Fax: +1 781 860 5437                     Fax: +81 3 5232 1710                       Fax: +44 (0) 1865 291571
+Toll-Free: +1 800 882 7426               Toll-Free: 0120 655 040                    Toll free: 00 800 234 234 00
+
+ China                                   Korea                                      Other Countries
+ Agilent Technologies (China) Co. Ltd    Agilent Technologies Korea, Ltd.           Agilent Technologies Italia S.p.A.
+ Vacuum Products Division                Vacuum Products Division                   Vacuum Products Division
+ No.3, Wang Jing Bei Lu, Chao Yang       Shinsa 2nd Bldg. 2F                        Via F.lli Varian 54
+ District                                966-5 Daechi-dong                          10040 Leini, (Torino) - Italy
+ Beijing, 100102, China                  Kangnam-gu, Seoul                          Tel.: +39 011 997 9111
+ Tel: +86 (0)10 64397888                 Korea 135-280                              Fax: +39 011 997 9350
+ Fax: +86 (0)10 64391318                 Tel: +82 (0)2 3452 2455                    Toll-Free: 00 800 234 234 00
+ Toll free: 800 820 3278                 Fax: +82 (0)2 3452 3947
+                                         Toll free: 080 222 2452
+  France                                 Mexico                                     Customer Support & Service
+  Agilent Technologies France            Agilent Technologies
+  Vacuum Products Division               Vacuum Products Division                   NORTH AMERICA:
+  7 Avenue des Tropiques                 Concepcion Beistegui No 109                Toll Free: 800 882 7426, Option 3
+  Z.A. de Courtaboeuf - B.P. 12          Col Del Valle                              vpl-ra@agilent.com
+  91941 Les Ulis cedex - France          C.P. 03100 – Mexico, D.F.                  EUROPE:
+  Tel.: +33 (0) 1 69 86 38 84            Tel.: +52 5 523 9465                       Toll Free: 00 800 234 234 00
+  Fax: +33 (0) 1 69 86 29 88             Fax: +52 5 523 9472                        vpt-customercare@agilent.com
+  Toll free: 00 800 234 234 00                                                      PACIFIC RIM:
+                                                                                    please visit our website for individual
+  Germany and Austria                    Singapore                                  office information http://www.agilent.com
+  Agilent Technologies                   Agilent Technologies Singapore Pte. Ltd,
+  Sales & Services GmbH & Co. KG         Vacuum Products Division                   Worldwide Web Site, Catalog and Order
+  Vacuum Products Division               Agilent Technologies Building,             On-line:
+  Lyoner Str. 20                         1 Yishun Avenue 7,                         www.agilent.com
+  60 528 Frankfurt am Main               Singapore 768923                           Representative in most countries
+  GERMANY                                Tel : (65) 6215 8045
+  Tel: +49 69 6773 43 2230               Fax : (65) 6754 0574                       1/12
+  Fax: +49 69 6773 43 2250
+
+
+                                         © Agilent Technologies, Inc. 2012
+
+                                         Printed in ITALY
+                                         06/2013
+                                         Publication Number: 87-901-033-01
+

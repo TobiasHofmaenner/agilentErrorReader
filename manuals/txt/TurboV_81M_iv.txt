@@ -1,0 +1,1014 @@
+                                        idealvac.com
+
+
+
+                                          (505)872-0037
+                                       idealvac.com
+
+
+            Turbo-V 81-M      (I)    MANUALE DI ISTRUZIONI
+
+                              (D)    BEDIENUNGSHANDBUCH
+
+
+                   Models:    (F)    NOTICE DE MODE D’EMPLOI
+
+                              (E)    MANUAL DE INSTRUCCIONES
+                   969-8901
+                              (P)    MANUAL DE INSTRUÇÕES
+                   969-8902
+                              (NL) BEDRIJFSHANDLEIDING
+                   969-8903
+                              (DK) INSTRUKSTIONSBOG
+                   969-8904
+                              (S)    BRUKSANVISNING
+
+                              (N)    INSTRUKSJON MANUAL
+
+                              (FIN) OHJEKÄSIKIRJA
+
+                              (GR) ODHGIES CRHSEWS
+
+                              (H)    FELHASZNÁLÓI KÉZIKÖNYV
+
+                              (PL)   PODRECZNIK INSTRUKCJI
+
+                              (CZ) NÁVOD K POUŽITÍ
+
+                              (SK)   NÁVOD NA OBSLUHU
+
+                              (SLO) PRIROČNIK ZA NAVODILA
+
+                              (GB) INSTRUCTION MANUAL
+
+
+
+
+87-900-983-01(B)
+MAY 2006
+Turbo-V 81-M
+ISTRUZIONI PER L’USO ...................................................................................................................................1
+GEBRAUCHSANLEITUNG ................................................................................................................................4
+MODE D’EMPLOI ...............................................................................................................................................7
+INSTRUCCIONES DE USO .............................................................................................................................10
+INSTRUÇÕES PARA O USO...........................................................................................................................13
+GEBRUIKSAANWIJZINGEN............................................................................................................................16
+BRUGSANVISNING .........................................................................................................................................19
+BRUKSANVISNING..........................................................................................................................................22
+BRUKERVEILEDNING .....................................................................................................................................25
+KÄYTTÖOHJEET .............................................................................................................................................28
+PDHGIES CRHSEWS ...........................................................................................................................................31
+HASZNÁLATI UTASÍTÁS .................................................................................................................................34
+INSTRUKCJA UZYTKOWANIA........................................................................................................................37
+PŘÍRUČKA K POUŽITÍ.....................................................................................................................................40
+NÁVOD K POUŽITIU........................................................................................................................................43
+NAVODILA ZA UPORABO...............................................................................................................................46
+INSTRUCTIONS FOR USE..............................................................................................................................49
+TECHNICAL INFORMATION ...........................................................................................................................52
+
+                  DESCRIPTION OF THE TURBO-V 81-M....................................................................................52
+                           Pump Description ..............................................................................................................52
+                  TURBO-V 81-M OUTLINE ...........................................................................................................54
+                  INLET SCREEN INSTALLATION ................................................................................................58
+                  HEATER BAND INSTALLATION.................................................................................................59
+                  AIR COOLING KIT INSTALLATION ............................................................................................59
+                  WATER COOLING KIT INSTALLATION .....................................................................................60
+                  VENT ACCESSORIES.................................................................................................................61
+                  VIBRATION ISOLATOR INSTALLATION....................................................................................62
+                  TYPICAL LAYOUT DIAGRAM .....................................................................................................62
+                           With Navigator Controller...................................................................................................62
+                           With Standard Rack Controller ..........................................................................................63
+                           Connection A - HIGH VACUUM FLANGE.........................................................................63
+                           Connection configurations .................................................................................................64
+                           Connection B - FORE-VACUUM PUMP............................................................................64
+                           Connection C - ELECTRICAL............................................................................................64
+                  PUMP USED IN PRESENCE OF MAGNETIC FIELDS ..............................................................65
+                  ACCESSORIES AND SPARE PARTS ........................................................................................65
+                  VENT VALVE MODEL SELECTION TABLE ...............................................................................65
+                                                                     INSTRUCTIONS FOR USE
+
+
+
+
+                                    Safety Guideline
+
+                                            for
+
+                           Turbomolecular Pumps
+
+
+Turbomolecular pumps as described in the following operating manual contain a large
+amount of kinetic energy due to the high rotational speed in combination with the specific
+mass of their rotors.
+
+In case of a malfunction of the system for example rotor/stator contact or even a rotor crash
+the rotational energy may be released.
+
+
+
+                                 ,WARNING!
+To avoid damage to equipment and to prevent injuries to operating
+personnel the installation instructions as given in this manual should be
+strictly followed!
+
+
+
+
+                                            49                                87-900-983-01(B)
+                                                                                                       INSTRUCTIONS FOR USE
+
+
+
+
+GENERAL INFORMATION
+This equipment is destined for use by professionals. The user
+                                                                                                         CAUTION
+should read this instruction manual and any other additional             In order to prevent outgassing problems, do not use bare hands
+information supplied by Varian before operating the equipment.           to handle components which will be exposed to vacuum. Al-
+Varian will not be held responsible for any events occurring due         ways use gloves or other appropriate protection.
+to non-compliance, even partial, with these instructions, im-
+proper use by untrained persons, non-authorized interference
+with the equipment or any action contrary to that provided for by
+specific national standards.
+The Turbo-V 81-M is a turbo-molecular pump for high and ultra-
+high vacuum applications which can pumps any type of non-
+corrosive gas or gas compound. It is not suitable for pumping
+liquids or solid particles.
+The pumping action is obtained through a high speed turbine
+(max. 80000 rpm) driven by a high-performance 3-phase elec-
+tric motor. The Turbo-V 81-M is free of contaminating agents
+and, therefore, is suitable for applications requiring a "clean"
+vacuum.
+The following paragraphs contain all the information necessary
+to guarantee the safety of the operator when using the equip-
+ment. Detailed information is supplied in the appendix "Techni-
+cal Information".
+This manual uses the following standard protocol:
+
+
+
+                    , WARNING!
+The warning messages are for attracting the attention of the
+operator to a particular procedure or practice which, if not fol-                                      NOTE
+lowed correctly, could lead to serious injury.
+                                                                         Normal exposure to the environment cannot damage the Turbo-
+                                                                         V 81-M. Nevertheless, it is advisable to keep it closed until it is
+                               CAUTION                                  installed in the system, thus preventing any form of pollution by
+                                                                         dust.
+The caution messages are displayed before procedures which,
+if not followed, could cause damage to the equipment.
+                                                                         INSTALLATION
+                             NOTE
+The notes contain important information taken from the text.                                         CAUTION!
+                                                                         Do not remove the adhesive and protective cap before connect-
+                                                                         ing the turbopump to the system.
+STORAGE
+In order to guarantee the maximum level of performance and
+reliability of Varian Turbomolecular pumps, the following guide-
+lines must be followed:
+•     when shipping, moving and storing pumps, the following
+      environmental specifications should not be exceeded:
+      •      temperature range: -20 °C to 70 °C
+      •      relative humidity range: 0 to 95% (non condensing)
+•     the turbomolecular pumps must be always soft-started
+      when received and operated for the first time by the cus-
+      tomer
+•     the shelf life of a turbomolecular pump is 10 months from
+      the shipping date.
+
+
+                                  CAUTION                               Do not install or use the pump in an environment exposed to
+                                                                         atmospheric agents (rain, snow, ice), dust, aggressive gases,
+If for any reason the shelf life time is exceeded, the pump has
+to be returned to the factory. Please contact the local Varian           or in explosive environments or those with a high fire risk. Dur-
+Vacuum Sales and Service representative for informations.                ing operation, the following environmental conditions must be
+                                                                         respected:
+                                                                         − maximum pressure: 2 bar above atmospheric pressure
+PREPARATION FOR INSTALLATION                                             − temperature: from +5 °C to +35 °C (see the diagram pres-
+The Turbo-V 81-M is supplied in a special protective packing. If              sure-temperature in the appendix “Technical Information”)
+this shows signs of damage which may have occurred during                − relative humidity: 0 - 95% (non-condensing)
+transport, contact your local sales office.
+When unpacking the pump, be sure not to drop it and avoid any            In the presence of magnetic fields the pump must be protected
+kind of sudden impact or shock vibration to it.                          using a ferromagnetic shield. See the appendix "Technical In-
+Do not dispose of the packing materials in an unauthorized               formation" for detailed information.
+manner. The material is 100% recyclable and complies with
+EEC Directive 85/399.
+
+
+
+
+                                                                    50                                              87-900-983-01(B)
+                                                                                                            INSTRUCTIONS FOR USE
+
+
+
+The Turbo-V 81-M pumps must be used in conjunction with one
+of the suitable Varian controller and they must be connected to
+a primary pump (see "Technical Information").
+The available controllers are the following:
+                                                                                                   , WARNING!
+-    Rack controller 81-AG: 969-8988                                           When employing the pump for pumping toxic, flammable, or
+-    Rack controller 81-AG RS232/485: 969-8989                                 radioactive gases, please follow the required procedures for
+-    Rack controller 81-AG Profibus: 969-8990                                  each gas disposal.
+-    PCB 24 V 969-9538                                                         Do not use the pump in presence of explosive gases.
+
+The Turbo-V 81-M can be installed in any position. Fix the                     MAINTENANCE
+Turbo-V 81-M in a stable position connecting the inlet flange of
+the turbopump to a fixed counter-flange capable of withstanding                The Turbo-V 81-M series pumps does not require any mainte-
+a torque of 1000 Nm around its axis.                                           nance. Any work performed on the system must be carried out
+For example the ISO 63 flange can be fixed using high strength                 by authorized personnel.
+steel clamps (as Varian model IC 63250 DCMZ).
+The following table shows, for each flange dimension, the nec-
+essary number of clamps and the relevant fixing torque.                                            , WARNING!
+                                                                               Before carrying out any work on the system, disconnect it from
+   FLANGE            FIXING               N.           FIXING                  the mains, vent the pump by opening the appropriate valve,
+                     DEVICE                           TORQUE                   wait until the rotor has stopped turning and wait until the sur-
+ ISO 63          M10 clamps                4           22 Nm                   face temperature of the pump falls below 50 °C.
+                 M8 claws                  4           11 Nm
+                                                                               In the case of breakdown, contact your local Varian service
+The turbopump with ConFlat inlet flange must be fixed to the                   center who can supply a reconditioned system to replace that
+vacuum chamber by means of the appropriate Varian hard-                        broken down.
+ware. See the appendix "Technical Information" for a detailed
+description.                                                                                                NOTE
+                                                                               Before returning the system to the constructor for repairs, or
+                               NOTE                                            replacement with a reconditioned unit, the "Health and Safety"
+The Turbo-V 81-M cannot be fixed by means of its base.                         sheet attached to this instruction manual must be filled-in and
+                                                                               sent to the local sales office. A copy of the sheet must be in-
+                                                                               serted in the system package before shipping.
+
+                                  CAUTION                                     If a system is to be scrapped, it must be disposed of in accor-
+The Turbo-V 81-M belongs to the second installation (or over-                  dance with the specific national standards.
+voltage) category as per directive EN 61010-1. Connect the
+device to a mains line that satisfy the above category.                                                  DISPOSAL
+
+For installation of optional accessories, see "Technical Informa-              Meaning of the "WEEE" logo found in labels
+tion".                                                                         The following symbol is applied in accordance with the EC
+                                                                               WEEE (Waste Electrical and Electronic Equipment) Directive.
+                                                                               This symbol (valid only in countries of the European Com-
+USE                                                                            munity) indicates that the product it applies to must NOT be
+All the instructions to correctly use the turbopump are contained in           disposed of together with ordinary domestic or industrial waste
+the controller manual. Read carefully this manual before use the               but must be sent to a differentiated waste collection system.
+pump.                                                                          The end user is therefore invited to contact the supplier of the
+To obtain better limit pressures it is possible to heat the pump.              device, whether the Parent Company or a retailer, to initiate the
+While heating the vacuum chamber, the temperature of the inlet                 collection and disposal process after checking the contractual
+flange must not exceed 120 °C for a ConFlat flange and 80 °C for a             terms and conditions of sale.
+ISO flange.
+While heating always use the water cooling.
+
+
+
+                     , WARNING!
+Never use the turbopump when the inlet flange is not con-
+nected to the vacuum chamber or is not blanked.
+Do not touch the turbopump or any of its accessories during the
+heating process. The high temperatures may cause burns.
+
+
+                                  CAUTION
+Avoid impacts, oscillations or harsh movements of the pump
+when in operation. The bearings may become damaged.
+Use air or inert gas free from dust or particles for venting the
+pump. The pressure at the vent port must be less than 2 bar
+(above atmospheric pressure).
+For pumping aggressive gases, these pumps are fitted with a spe-
+cial port to allow a steady flow of inert gas (like Nitrogen or Helium)
+for pump bearing protection (see the appendix "Technical Informa-
+tion").
+
+
+
+
+                                                                          51                                             87-900-983-01(B)
+                                                                               TECHNICAL INFORMATION
+
+
+
+
+DESCRIPTION OF THE TURBO-V 81-M                           Proceeding from the high vacuum to the forevac-
+The Turbo-V 81-M pump is available in four ver-           uum region, the turbine stages sequence is:
+sions. The difference among the four versions lies        •   1st stage with a blade angle of 40°,
+purely in the high vacuum connection.
+                                                          •   2nd stage with a blade angle of 30°,
+The four versions are:
+                                                          •   3rd stage with a blade angle of 24°,
+− Model 969-8901 with ISO 63 high vacuum
+  flange;                                                 •   4th and 5th stages with a blade angle of 18°,
+− Model 969-8902 with KF 40 NW high vacuum                •   6th stage with a blade angle of 14°;
+  flange;
+                                                          •   7th, 8th and 9th stages with a blade angle of
+− Model 969-8903 with ConFlat 4.5" external di-               12°.
+  ameter high vacuum flange;
+                                                          The Macrotorr stages are in the form of three
+− Model 969-8904 with ConFlat 2.75” external              discs.
+  diameter high vacuum flange.                            The turbine rotor is supported by permanently lu-
+                                                          bricated high precision ceramic ball bearings in-
+                                                          stalled on the forevacuum side of the pump.
+Pump Description
+The pump consists of a high frequency motor driv-         The static blades of the stator are made of
+ing a turbine fitted with 9 bladed stages and 3           stainless steel. These are supported and accu-
+Macrotorr stages. The turbine rotates in an anti-         rately positioned by spacer rings.
+clockwise direction when viewed from the high             The Macrotorr stators are in the form of self-
+vacuum flange end.                                        positioning machined discs with pumping channels
+The turbine is made of high-strength aluminium            and an opening restricted by the corresponding
+alloy, machined from a single block.                      rotor discs. These are made of aluminium alloy.
+                                                          During normal operation, the motor is fed with a
+                                                          voltage of 54 Vac three-phase at 1350 Hz (max).
+                                                          To reduce losses during start-up to a minimum,
+                                                          the frequency increases according to a ramp with
+                                                          a higher initial voltage/frequency ratio.
+                                                          The pump can be water cooled or air cooled: in the
+                                                          first case the customer can use a dedicated exter-
+                                                          nal plate made of nickel-plated brass, in the sec-
+                                                          ond case an external optional fan is available.
+                                                          A thermistor sensor is mounted near the upper
+                                                          bearing to prevent the pump from overheating.
+   Model 969-8901             Model 969-8902              The pump is balanced after assembly with a resid-
+                                                          ual vibration amplitude less than 0.01 μm.
+
+                                                          The pump can operate in any position and can be
+                                                          supported on the high vacuum flange. The con-
+                                                          nection of the forevacuum on the side of the pump
+                                                          is a KF 16 NW flange.
+
+
+                                                                                            PUMP
+
+
+                                                                                              FOREPUMP
+                                                                                              CONNECTOR
+   Model 969-8903             Model 969-8904
+
+
+
+
+                                                                                           CONTROLLER
+                                                                                           CONNECTOR
+
+
+
+
+                                                     52                                    87-900-983-01(B)
+                                                                                                 TECHNICAL INFORMATION
+
+
+
+
+TECHNICAL SPECIFICATION                                                Vibration level          < 0.01 μm at inlet flange
+                                                                       (displacement)
+Pumping speed           With ISO 63 or        With KF 40 NW
+                        CFF 4.5”              or CFF 2.75”             Noise level              ≤ 45 dB (A) at 1 meter
+                        N2: 77 l/s            N2: 50 l/s
+                        He: 65 l/s            He: 56 l/s               Compliance with:         UNI EN 292-1
+                        H2: 50 l/s            H2: 46 l/s                                        UNI EN 292-2
+                                                8
+                                                                                                EN-CENELEC 55011
+Compression ratio                    N2: 3 x 10                                                 IEC 1000-4-2 (ex 801-2)
+                                                4
+                                     He: 8 x 10                                                 IEC 1000-4-3 (ex 801-3)
+                                                3
+                                     H2: 7 x 10                                                 IEC 1000-4-4 (ex 801-4)
+                                                                                                EN 61010-1 (IEC 1010-1)
+Base pressure *         mechanical:
+                              -10             -10                                               EN 1012-2
+(with recommended       5 x 10 mbar (3.8 x 10 Torr)
+forepump)               diaphragm:                                     Storage temperature      -20° C to +70° C
+                              -9             -9
+                        5 x 10 mbar (3.8 x 10 Torr)
+                                                                       Input                    76 Vac, three phase,
+Inlet flange            ISO 63              KF 40 NW                                            1350 Hz (max)
+                        CFF 4.5” O.D.       CFF 2.75” O.D.                                      100 W max
+Foreline flange         KF16 NW                                        Lubricant                permanent lubrication
+Rotational speed        1350 Hz (max)                                  Installation category    II
+Start-up time           < 60 seconds                                   Pollution degree         2
+Cooling                 Natural air convection                         Storage temperature      - 20° C to + 70° C
+requirements            Forced air or water optional
+                                                                       Weight kg (lbs):         ISO 63: 2 (4.4)
+Recommended             mechanical: Varian DS 42 – DS 102                                       CFF 4.5”: 2.98 (6.57)
+forepump                dry pump: Varian SH 100
+
+Operating position      any                                            * (According to standard DIN 28 428, the base pressure is that
+                                                                       measured in a leak-free test dome, 48 hours after the comple-
+Coolant water           flow: 10 l/h (0.05 GPM)                        tion of test dome bake-out, with a Turbopump fitted with a Con-
+                        temperature: + 15 °C to + 35 °C                Flat flange and using the recommended pre-vacuum pump)
+                        pressure: 2 to 4 bar (30 to 60 Psi)
+
+Operating ambient       +5 °C to +25 °C
+temperature with                                                                            NOTE
+natural air convec-                                                    When the Turbo-V 81-M has been stored at a tem-
+tion                                                                   perature less than 5°C, wait until the system has
+Operating ambient       +5 °C to +35 °C                                reached the above mentioned temperature.
+temperature with
+forced air cooling or
+water
+
+Bakeout temperature     120° C at inlet flange max. (CF flange)
+                        80° C at inlet flange max. (ISO flange)
+
+
+
+
+                                                                  53                                            87-900-983-01(B)
+                                                                              TECHNICAL INFORMATION
+
+
+
+
+TURBO-V 81-M OUTLINE
+The following figure shows the Turbo-V 81-M outlines (dimensions are in inches [mm]).
+
+
+
+
+                                           Turbo-V 81-M outline
+
+
+
+
+                                                    54                                  87-900-983-01(B)
+                                                              TECHNICAL INFORMATION
+
+
+
+
+Graph of pumping speed vs inlet pressure with a 8 m3/h mechanical pump
+
+
+
+
+            Graph of compression ratio vs foreline pressure
+
+
+
+
+                                 55                                      87-900-983-01(B)
+                                       TECHNICAL INFORMATION
+
+
+
+
+Nitrogen throughput and power curves
+
+
+
+
+Helium throughput and power curves
+
+
+
+
+                56                             87-900-983-01(B)
+                                    TECHNICAL INFORMATION
+
+
+
+
+Argon throughput and power curves
+
+
+
+
+              57                            87-900-983-01(B)
+                                                                               TECHNICAL INFORMATION
+
+
+
+
+INLET SCREEN INSTALLATION                                  The screen can be removed as shown in the fol-
+                                                           lowing figure.
+
+
+
+
+The inlet screens mod. 969-9300 and 969-9309
+prevent the blades of the pump from being dam-
+aged by debris greater than 0.7 mm diameter.
+
+The inlet screen, however, does reduce the pump-
+ing speed by about 10%.                                    The following figure shows the overall flange di-
+                                                           mensions with the protection screen fitted on
+The inlet screen is fitted in the upper part of the        pump with ISO flange and pump with CFF flange
+pump, as shown in the figure.                              (dimensions are in inches [mm]).
+
+
+
+
+The screen can be mounted on each pump.
+
+
+
+
+                                                      58                                   87-900-983-01(B)
+                                                                                  TECHNICAL INFORMATION
+
+
+
+
+HEATER BAND INSTALLATION
+                                                                                   CAUTION
+                                                            If the chamber of the system is "baked" at a high
+                                                            temperature, a shield should be installed to pre-
+                                                            vent thermal radiation heating the high vacuum
+                                                            flange on the pump. The maximum temperature
+                                                            allowed for the inlet flange is 120° C.
+
+
+                                                            AIR COOLING KIT INSTALLATION
+                                                            An air cooling kit (mod. 969-9290) is available for
+                                                            cooling the pump during heavy operational condi-
+                                                            tions and whenever the natural air convection is
+                                                            not sufficient.
+
+
+
+The heater band model 969-9801 and 969-9802
+can be used to heat the pump casing when a
+bakeout is needed.
+
+The heater band is applied to the upper part of the
+pump casing, as shown in the figure, and heats it
+to a temperature of about 80° C.
+
+The heater band must be mounted such that there
+is perfect thermal contact with the pump wall to ob-
+tain fast and efficient heating.
+
+
+
+
+                                                            Fan specifications:
+
+                                                            −   air flow: 9 l/s (10 CFM)
+                                                            −   input voltage: 24 Vdc
+                                                            −   dimensions: 60 x 60 x 25 mm
+                                                            −   power: 2.10 W
+
+                                                            The fan bracket is shaped so that it can be
+                                                            mounted close to the pump and in different posi-
+                                                            tions.
+
+                                                            To fix the fan to the Turbo-V 81-M case execute
+                                                            the following procedure (see the following figure):
+
+
+Switch on the heater while the turbopump is in op-          1. Fix the fan to the suitable bracket by means of
+eration. In the event of turbopump overheat, the               the furnished screws;
+pump will be automatically cut out by the thermis-
+tor sensor.                                                 2. Fix the bracket to the pump body;
+
+                                                            3. Connect the fan supply to the P4 connector of
+                       NOTE
+                                                               the controller.
+The turbopump must be "baked" only when operat-
+ing with an inlet pressure less than 10-4 mbar and
+with water cooling.
+
+
+
+
+                                                       59                                     87-900-983-01(B)
+                          TECHNICAL INFORMATION
+
+
+
+
+     WATER COOLING KIT INSTALLATION
+     Two types of water cooling kits are available to be
+     mounted when the pump is used under heavy load
+     conditions or when air cooling is insufficient.
+
+     The two model part numbers are: 969-9823 (me-
+     tallic model), and 969-9824 (plastic model).
+
+
+
+
+                            CAUTION
+     The items of the plastic model kit must be assem-
+     bled as shown in the following figure
+
+
+
+
+     The assembled kit must be screwed into the suit-
+     able holes of the pump body with a recommended
+     closing torque of 5 Nm.
+
+     The water kit is assembled as shown in the figure.
+
+
+
+
+60                                     87-900-983-01(B)
+                                                                              TECHNICAL INFORMATION
+
+
+
+
+                                                         2. Assemble the metal or the plastic kit as shown.
+
+                                                         Cooling may be carried out either through an open
+                                                         circuit with eventual discharge of the water, or us-
+                                                         ing a closed circuit cooling system.
+
+                                                         The water temperature must be between +15 °C
+                                                         and +35 °C, with an inlet pressure between 2 and
+                                                         4 bar.
+
+
+                                                                               NOTE
+                                                         The water electrical conductance must be ≤ 500
+                                                         μs/cm. When the conductance is higher, in closed
+                                                         water circuit, the use of up to 20% of Ethyl-Glycole
+                                                         is suggested.
+
+                                                         VENT ACCESSORIES
+                                                         The vent valve allows to avoid undesired venting
+                                                         of the pump during temporary power failure and
+                                                         enables an automatic vent operation.
+
+                                                         There are several vent valves available and each
+                                                         vent valve has to be driven by its own control unit.
+                                                                               NOTE
+                                                         Refer to the Vent Valve Model Selection table to
+                                                         choose the valve and the related control unit.
+1. Connect the plate to the pump bottom with four
+   screws M3x20
+                                                                                 NOTE
+                                                         Refer to the control unit manual for the pump-
+                                                         valve-controller interconnections.
+                                                         Refer to the vent valve manual and follow the in-
+                                                         structions to properly vent the turbomolecular
+                                                         pump.
+
+                                                         To install the vent valve, unscrew the threaded
+                                                         plug (see figure below).
+
+
+
+
+                                                    61                                    87-900-983-01(B)
+                                                                                TECHNICAL INFORMATION
+
+
+
+
+Then screw the vent valve into the pump and               TYPICAL LAYOUT DIAGRAM
+tighten it using a 16 mm hexagonal spanner with a
+torque of 2.5 Nm.                                         With Navigator Controller
+
+
+
+
+                                                          1.   Turbo-V Navigator controller
+                                                          2.   Vent valve
+                                                          3.   Vacuum pump shut-off valve (optional)
+                                                          4.   System vent valve (optional)
+                            CAUTION                      5.   Vacuum chamber
+Do not overtighten the valve as this may damage           6.   Ionization gauge
+the thread on the pump.
+                                                          7.   Fore-vacuum pump connecting flange
+Then connect the cable from the valve to the suit-        8.   Oil mist eliminator
+able connector on the controller.                         9.   Fore-vacuum pump with internal one-way valve
+                                                          10. Fore-vacuum pump control relay
+VIBRATION ISOLATOR INSTALLATION                           11. Connection for water cooling
+Two vibration isolators for ISO and CFF inlet
+flange version pumps are available as accesso-            12. Roughing line with valve (optional)
+ries.                                                     13. Turbopump
+The two model part numbers are the following:             14. Fan
+− model 969-9375 for ISO 63 flange;                       15. Flexible connection
+− model 969-9376 for CFF 4.5” flange.
+They typically reduce the vibration transmitted
+from the Turbo-V 81-M to the system by a factor of
+20.
+Please refer to the relevant instruction manual.
+
+
+
+
+                                                     62                                       87-900-983-01(B)
+                                                                               TECHNICAL INFORMATION
+
+
+
+
+With Standard Rack Controller                            Connection A - HIGH VACUUM FLANGE
+                                                         To connect the Turbo-V 81-M pump to the ISO
+                                                         inlet flange, remove the outer ring and position the
+                                                         centering ring as shown in the figure.
+
+
+
+
+                                                         Then fix the two flanges with the clamps or claws
+1.   Turbo-V standard rack controller                    as shown in the figure.
+2.   Vent valve
+3.   Vacuum pump shut-off valve (optional)
+4.   System vent valve (optional)
+5.   Vacuum chamber
+6.   Ionization gauge
+7.   Fore-vacuum pump connecting flange
+8.   Oil mist eliminator
+9.   Fore-vacuum pump with internal one-way valve
+10. Fore-vacuum pump control relay
+11. Connection for water cooling                         For ConFlat flange connections we recommend
+                                                         using Varian hardware.
+12. Roughing line with valve (optional)
+13. Turbopump                                            To facilitate assembly and dismantling, apply Fel-
+                                                         pro C-100 high temperature lubricant to the screw
+14. Flexible connection                                  threads protruding from the flange and between
+                                                         the nuts and flange.
+
+                                                         Attach the units and tighten each one in turn. Re-
+                                                         peat the sequential tightening until the flange faces
+                                                         meet.
+
+
+                                                                                 CAUTION
+                                                         Exercise care when tightening nuts and bolts to
+                                                         avoid creating dents in the envelope as this may
+                                                         cause the pump rotor to lock.
+
+
+
+
+                                                    63                                      87-900-983-01(B)
+                                                                               TECHNICAL INFORMATION
+
+
+
+
+Connection configurations
+
+
+
+
+Connection B - FORE-VACUUM PUMP                            Connection C - ELECTRICAL
+A flange KF 16 NW is available to connect the
+Turbo-V 81-M pump to the fore-vacuum pump. A
+hose or vacuum approved pipe can be used. If a
+rigid pipe is used, any vibration generated by the
+mechanical pump must be eliminated through the
+use of bellows.
+
+
+                        NOTE
+The Turbo-V 81-M pump is characterized by its
+high compression ratio also for oil vapors. When
+using a mechanical oil-sealed pump, it is advisable
+to install a suitable trap between the turbopump
+and the fore-vacuum pump in order to prevent oil
+backstreaming.
+
+
+                                                           The turbopump is connected to the controller
+                                                           through an 6-pin connector. Pins B, C and D are
+                                                           the 3-phase supply to the motor, pins A and F are
+                                                           connected to the temperature sensor (NTC type,
+                                                           30 KΩ resistance at 25° C) and pin E is connected
+                                                           to the pump ground.
+
+                                                           If the temperature sensor is disconnected, the
+                                                           pump will not start. To prevent damage to the
+                                                           pump when the temperature exceeds 60° C, the
+                                                           sensor automatically cuts out the power supply.
+
+
+
+
+                                                      64                                  87-900-983-01(B)
+                                                                                          TECHNICAL INFORMATION
+
+
+
+
+PUMP USED IN PRESENCE OF MAGNETIC                            ACCESSORIES AND SPARE PARTS
+FIELDS
+                                                                        DESCRIPTION                   PART NUMBER
+Magnetic fields induce eddy currents in the rotor of
+a turbomolecular pump that tend to oppose to its             Inlet screen, DN 40                     969-9309
+rotation.                                                    Inlet screen, DN 63                     969-9300
+
+                                                             Heater band 220 V                       969-9801
+The result is increased electrical power consump-
+tion by the motor, most of which is dissipated in            Heater band 120 V                       969-9802
+the rotor.                                                   Metallic water cooling kit              969-9823
+
+                                                             Plastic water cooling kit               969-9824
+Since the rotor is not in contact with the stator the
+above power can leave the rotor mainly by radia-             Air cooling kit (0.5 m cable)           969-9290
+tion and hence the rotor may be overheated while             Air cooling kit extension cable (5 m)   969-9940
+static parts of the pump remain cool.
+                                                             Pump extension cable                    969-9942
+This effect is strongly dependant from the inten-            Vibration damper DN 63                  969-9375
+sity, time function and distribution of the magnetic
+                                                             Vibration damper CFF 4.5"               969-9376
+field.
+                                                             Mechanical pump DS 102                  949-9315
+In general, therefore, an increase in pump current           Mechanical pump DS 42                   949-9309
+can be expected.
+                                                             Dry scroll SH 100                       SH01001 UNIV
+If this increase is lower than 50% of the current            Rack controller 81-AG base              969-8988
+value drawn by the motor in high vacuum opera-               Rack controller 81-AG RS232/485         969-8989
+tion, no particular problem should be expected.
+                                                             Rack controller 81-AG Profibus          969-8990
+However if the effect is grater, than the case               PCB 24 V                                969-9538
+should be carefully reviewed by Varian's specialist.
+As a matter of fact, in case of high magnetic fields,
+also important forces might be generated and ap-             For a complete overview of Varian's extensive
+plied to the rotor.                                          product lines, please refer to the Varian catalog.
+
+                                                             VENT VALVE MODEL SELECTION TABLE
+                                                                   CONTROL UNIT MODEL                  VENT VALVE
+                                                                                                      PART NUMBER
+
+                                                             Turbo-V 70 Rack controller              969-9843
+                                                             (P/N 969-9405, 969-9505)
+
+                                                             V70 Navigator                           969-9834
+                                                             (P/N 969-8970, 969-8971)
+
+                                                             Rack controller 81-AG                   N.O. 969-9844
+                                                             (any version)
+
+
+
+
+                                                        65                                           87-900-983-01(B)
+                                                   Request for Return
+1.   A Return Authorization Number (RA#) WILL NOT be issued until this Request for Return is completely filled out,
+     signed and returned to Varian Customer Service.
+2.   Return shipments shall be made in compliance with local and international Shipping Regulations (IATA, DOT, UN).
+3.   The customer is expected to take the following actions to ensure the Safety of workers at Varian: (a) Drain any oils or
+     other liquids, (b) Purge or flush all gasses, (c) Wipe off any excess residues in or on the equipment, (d) Package the
+     equipment to prevent shipping damage, (for Advance Exchanges please use packing material from replacement unit).
+4.   Make sure the shipping documents clearly show the RA# and then return the package to the Varian location nearest you.
+         North and South America                      Europe and Middle East                           Asia and ROW
+        Varian Vacuum Technologies                          Varian SpA                           Varian Vacuum Technologies
+             121 Hartwell Ave                            Via Flli Varian 54                              Local Office
+           Lexington, MA 02421                       10040 Leini (TO) – ITALY
+          Phone : +1 781 8617200                      Phone: +39 011 9979111
+            Fax: +1 781 8609252                        Fax: +39 011 9979330
+CUSTOMER INFORMATION
+
+Company name: ..………………….……..……………….………………………………..……………………...…………..….
+Contact person: Name: ……………………………………..… Tel: ……………………….…...…………….….…....
+              Fax: …………………………….…...…..……             E-Mail: ..……………………..…………..…..…..…..
+Ship Method: …………….……....…… Shipping Collect #: ………….…..………… P.O.#: ………………….…......………..
+Europe only: VAT reg. Number: ………………..……………...                                USA only:        Taxable         Non-taxable
+Customer Ship To: ………………………….………                                    Customer Bill To: …………………..……………...
+                  ……………..…………………...                                                   ..………………………………...
+                  ………………..………………...                                                   ..………………………………...
+PRODUCT IDENTIFICATION
+   Product Description                       Varian P/N                         Varian S/N                   Purchase Reference
+
+
+
+
+TYPE OF RETURN (check appropriate box)
+  Paid Exchange   Paid Repair          Warranty Exchange                          Warranty Repair              Loaner Return
+  Credit          Shipping Error       Evaluation Return                          Calibration                  Other ……………….
+
+HEALTH and SAFETY CERTIFICATION
+Varian Vacuum Technologies CAN NOT ACCEPT any equipment which contains BIOLOGICAL HAZARDS or
+RADIOACTIVITY. Call Varian Customer Service to discuss alternatives if this requirement presents a problem.
+The equipment listed above (check one):
+        HAS NOT been exposed to any toxic or hazardous materials
+      OR
+        HAS been exposed to any toxic or hazardous materials. In case of this selection, check boxes for any materials that
+     equipment was exposed to, check all categories that apply:
+          Toxic          Corrosive       Reactive        Flammable        Explosive       Biological     Radioactive
+         List all toxic or hazardous materials. Include product name, chemical name and chemical symbol or formula.
+        .……………………………………………………………………………………………………………………..
+
+     Print Name: ………………………………….                            Customer Authorized Signature: ……………...…………………….
+     Print Title: …………………………………...                         Date: ..…../..…../……
+NOTE: If a product is received at Varian which is contaminated with a toxic or hazardous material that was not disclosed, the customer
+will be held responsible for all costs incurred to ensure the safe handling of the product, and is liable for any harm or injury to Varian
+employees as well as to any third party occurring as a result of exposure to toxic or hazardous materials present in the product.
+
+Do not write below this line
+Notification (RA)#: ……………………….……….. Customer ID#: ……….…………. Equipment #: ……………………..
+                                                Request for Return
+
+FAILURE REPORT
+TURBO PUMPS and TURBOCONTROLLERS
+                                                          POSITION               PARAMETERS
+  Does not start            Noise                           Vertical             Power:       Rotational Speed:
+  Does not spin freely      Vibrations                      Horizontal           Current:     Inlet Pressure:
+  Does not reach full speed Leak                            Upside-down          Temp 1:      Foreline Pressure:
+  Mechanical Contact        Overtemperature                 Other:               Temp 2:      Purge flow:
+  Cooling defective                                       ………………….               OPERATION TIME:
+TURBOCONTROLLER ERROR MESSAGE:
+
+
+ION PUMPS/CONTROLLERS                                                VALVES/COMPONENTS
+  Bad feedthrough       Poor vacuum                                    Main seal leak                   Bellows leak
+  Vacuum leak           High voltage problem                           Solenoid failure                 Damaged flange
+  Error code on display Other                                          Damaged sealing area             Other
+Customer application:                                                Customer application:
+
+
+
+LEAK DETECTORS                                                       INSTRUMENTS
+  Cannot calibrate                No zero/high backround               Gauge tube not working           Display problem
+  Vacuum system unstable          Cannot reach test mode               Communication failure            Degas not working
+  Failed to start                 Other                                Error code on display            Other
+Customer application:                                                Customer application:
+
+
+
+PRIMARY PUMPS                                                        DIFFUSION PUMPS
+  Pump doesn’t start              Noisy pump (describe)                Heater failure                   Electrical problem
+  Doesn’t reach vacuum            Over temperature                     Doesn’t reach vacuum             Cooling coil damage
+  Pump seized                     Other                                Vacuum leak                      Other
+Customer application:                                                Customer application:
+
+
+
+                                             FAILURE DESCRIPTION
+             (Please describe in detail the nature of the malfunction to assist us in performing failure analysis):
+
+
+
+
+NOTA: Su richiesta questo documento è disponibile anche in Tedesco, Italiano e Francese.
+REMARQUE : Sur demande ce document est également disponible en allemand, italien et français.
+HINWEIS: Auf Aufrage ist diese Unterlage auch auf Deutsch, Italienisch und Französisch erhältlich.
+                                      Sales and Service Offices
+
+
+France and Benelux                    Japan                                   Other Countries
+Varian s.a.                           Varian Vacuum Technologies              Varian Inc.
+7 Avenue des Tropiques                Sumitomo Shibaura Building, 8th Floor   Vacuum Technologies
+Z.A. de Courtaboeuf - B.P. 12         4-16-36 Shibaura                        Via F.lli Varian 54
+Les Ulis cedex (Orsay) 91941          Minato-ku, Tokyo 108                    10040 Leini, (Torino)
+France                                Japan                                   Italy
+Tel: (33) 1 69 86 38 84               Tel: (81) 3 5232 1253                   Tel: (39) 011 997 9 111
+Fax: (33) 1 69 86 29 88               Fax: (81) 3 5232 1263                   Fax: (39) 011 997 9 350
+From Benelux Tel: (31) 118 67 15 70   Toll Free: 0120 655 040
+From Benelux Fax: (31) 118 67 15 69
+
+Canada                                Korea
+                                      Varian Technologies Korea, Ltd          Customer Support & Service:
+Central coordination through:
+Varian Vacuum Technologies            Shinsa 2nd Bldg. 2F
+121 Hartwell Avenue                   966-5 Daechi-dong                       North America
+Lexington, MA 02421                   Kangnam-gu, Seoul                       Toll-Free: 1 800 882 7426
+USA                                   Korea 135-280                           vtl.technical.support@varianinc.com
+Tel: (781) 861 7200                   Tel: (82) 2 3452 2452
+Fax: (781) 860 5437                   Fax: (82) 2 3452 2451
+Toll Free # 1 (800) 882 7426          Toll Free: 080 222 2452                 Europe
+                                                                              Tel: 00 800 234 234 00
+China                                                                         vtt.technical.support@varianinc.com
+                                      Mexico
+Varian Technologies - Beijing         Varian, S. de R.L. de C.V.
+Rm 1648 Central Tower South Wing      Concepcion Beistegui No 109
+Beijing Junefield Plaza               Col Del Valle                           China
+No. 10 XuanWuMenWai Street            C.P. 03100                              Toll-Free: 800 820 8266
+Beijing 100052                        Mexico, D.F.                            vtc.technical.support@varianinc.com
+P.R. China                            Tel: (52) 5 523 9465
+Tel: (86) 10 63108550                 Fax: (52) 5 523 9472
+Fax: (86) 10 63100141                                                         Japan
+Toll Free: 800 820 6556                                                       Toll-Free: 0120 655 040
+                                      Taiwan                                  vtj.technical.support@varianinc.com
+Germany and Austria
+                                      Varian Technologies Asia Ltd.
+Varian Deutschland GmbH
+                                      14F-6, No.77, Hsin Tai Wu Rd., Sec. 1
+Alsfelder Strasse 6
+                                      Hsi chih, Taipei Hsien                  Korea
+Postfach 11 14 35
+                                      Taiwan, R.O.C.                          Toll-Free: 080 222 2452
+64289 Darmstadt
+                                      Tel: (886) 2 2698 9555                  vtk.technical.support@varianinc.com
+Germany
+                                      Fax: (886) 2 2698 9678
+Tel: (49) 6151 703 353
+                                      Toll Free: 0800 051342
+Fax: (49) 6151 703 302
+                                                                              Taiwan
+India                                 UK and Ireland                          Toll-Free: 0 800 051 342
+                                                                              vtw.technical.support@varianinc.com
+Varian India PVT LTD                  Varian Ltd.
+101-108, 1st Floor                    6 Mead Road
+1010 Competent House                  Oxford Industrial Park - Yarnton
+7, Nangal Raya Business Centre        Oxford OX5 1QU - England                Worldwide Web Site, Catalog
+New Delhi 110 046                     Tel: (44) 1865 291570                   and Order On-line:
+India                                 Fax: (44) 1865 291571                   www.varianinc.com
+Tel: (91) 11 28521171
+Fax: (91) 11 28521173
+                                                                              Representative in most countries
+Italy                                 United States
+Varian Inc.                           Varian Vacuum Technologies
+Vacuum Technologies                   121 Hartwell Avenue
+Via F.lli Varian 54                   Lexington, MA 02421
+10040 Leini, (Torino)                 USA
+Italy                                 Tel: (781) 861 7200
+Tel: (39) 011 997 9 111               Fax: (781) 860 5437
+Fax: (39) 011 997 9 350
+
+
+
+
+03/06
+

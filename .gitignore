@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+manuals/txt/_windows.json
+pump_report_*.md
+pump_state.json
